@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shape",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
     {
