@@ -1,6 +1,7 @@
 package net.august.whim;
 
 import net.august.whim.block.ModBlocks;
+import net.august.whim.item.ModCreativeModeTabs;
 import net.august.whim.item.ModItems;
 import org.slf4j.Logger;
 
@@ -53,6 +54,8 @@ public class Whim {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -79,6 +82,7 @@ public class Whim {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE);
+            event.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
         }
     }
 

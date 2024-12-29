@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shape",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "whim:bismuth_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "whim:bismuth"
+  }
+}
