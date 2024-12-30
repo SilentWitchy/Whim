@@ -1,0 +1,34 @@
+1. If the texture doesnt work, make sure it's listed under ModItemModelProvider
+
+2. To create a new block :
+    1. Add to ModBlocks.Java
+    2. Add to ModCreativeModeTabs
+    3. Add to ModBlockLootTableProvider
+        This can usually be done just by making it drop itself with dropSelf(ModBlocks.NAMEOFBLOCK.get()));
+        If it drops other items you need to specify what it drops
+        If it's a slab or door, you need to make sure it creates itself to drop
+    4. Add translation TO en_us.json
+    5. Add textures to texture folder
+
+
+Need to fix
+1. door and trapdoor not working
+2. Lamp no texture
+
+I need to rename the ModBlockStateProvider "customLamp" to something more like activeInactive to be more general use
+Unfortunately tutorial man hard coded the damn thing so good luck
+
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.BISMUTH_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(BismuthLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_off")))};
+            }
+        });
+
+        simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
+                ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")));
+    }

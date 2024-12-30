@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bismuth": {
+      "conditions": {
+        "items": [
+          {
+            "items": "whim:bismuth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "whim:bismuth_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bismuth"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "whim:bismuth_pressure_plate"
+    ]
+  }
+}

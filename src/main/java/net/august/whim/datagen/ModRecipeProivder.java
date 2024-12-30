@@ -42,25 +42,48 @@ public class ModRecipeProivder extends RecipeProvider {
                 .save(recipeOutput, "whim:bismuth_from_magic_block");
 
         //Defines what item you want to be smelt-able or blast-able. oreSmelting and Ore blasting are hard coded to be placed under date>minecraft.
-
+        //We fix this down below with custom Helpers
         oreSmelting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 200, "bismuth");
         oreBlasting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 100, "bismuth");
 
+//instead of hand making the recipes, Minecraft has these methods to automatically generate the files.
+        stairBuilder(ModBlocks.BISMUTH_STAIRS.get(), Ingredient.of(ModItems.BISMUTH)).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_SLAB.get(), ModItems.BISMUTH.get());
+
+        buttonBuilder(ModBlocks.BISMUTH_BUTTON.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.BISMUTH_PRESSURE_PLATE.get(), ModItems.BISMUTH.get());
+
+        fenceBuilder(ModBlocks.BISMUTH_FENCE.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.BISMUTH_FENCE_GATE.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_WALL.get(), ModItems.BISMUTH.get());
+
+        doorBuilder(ModBlocks.BISMUTH_DOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.BISMUTH_TRAPDOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+
+
     }
-//custom helpers. oreSmelting and oreBlasting are hard coded for data generated to be placed in Minecraft folder, these fix that issue.
+    //Custom helpers. oreSmelting and oreBlasting are hard coded for data generated to be placed in Minecraft folder, these fix that issue.
     //These also generate the advancements in the minecraft recipe book.
         protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
         float pExperience, int pCookingTIme, String pGroup) {
             oreCooking(recipeOutput, RecipeSerializer.SMELTING_RECIPE, SmeltingRecipe::new, pIngredients, pCategory, pResult,
                     pExperience, pCookingTIme, pGroup, "_from_smelting");
         }
-
+    //Custom helpers. oreSmelting and oreBlasting are hard coded for data generated to be placed in Minecraft folder, these fix that issue.
+    //These also generate the advancements in the minecraft recipe book.
         protected static void oreBlasting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
         float pExperience, int pCookingTime, String pGroup) {
             oreCooking(recipeOutput, RecipeSerializer.BLASTING_RECIPE, BlastingRecipe::new, pIngredients, pCategory, pResult,
                     pExperience, pCookingTime, pGroup, "_from_blasting");
         }
-
+    //Custom helpers. oreSmelting and oreBlasting are hard coded for data generated to be placed in Minecraft folder, these fix that issue.
+    //These also generate the advancements in the minecraft recipe book.
         protected static <T extends AbstractCookingRecipe > void oreCooking(RecipeOutput recipeOutput, RecipeSerializer<T> pCookingSerializer, AbstractCookingRecipe.Factory<T> factory,
                 List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTime, String pGroup, String pRecipeName) {
             for(ItemLike itemlike : pIngredients) {

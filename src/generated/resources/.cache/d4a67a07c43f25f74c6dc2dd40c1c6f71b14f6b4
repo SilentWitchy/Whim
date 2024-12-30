@@ -1,0 +1,6 @@
+// 1.21.1	2024-12-30T14:26:31.4638348	Tags for minecraft:block mod id whim
+d9cdc9a8430ccf444ba9bfc43ce05776d23e5c7a data/minecraft/tags/block/fences.json
+609b3c48e013c99cd9fae4555066f7fe308cb207 data/minecraft/tags/block/fence_gates.json
+80905136d521b6c45a0e1df4fae6e554b65c027a data/minecraft/tags/block/mineable/pickaxe.json
+e648fe81ba95ade941f69236c6ec5b40f95a7941 data/minecraft/tags/block/needs_iron_tool.json
+3f18ae2c639bfe8bbb32d53fe8363e7a51fd0c05 data/minecraft/tags/block/walls.json

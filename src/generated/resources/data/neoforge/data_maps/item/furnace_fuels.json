@@ -1,0 +1,10 @@
+{
+  "values": {
+    "whim:frostfire_ice": {
+      "burn_time": 2400
+    },
+    "whim:starlight_ashes": {
+      "burn_time": 1200
+    }
+  }
+}

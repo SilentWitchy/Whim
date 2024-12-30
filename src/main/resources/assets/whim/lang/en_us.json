@@ -14,6 +14,21 @@
 
   "block.whim.magic_block": "Magic block",
 
+  "block.whim.bismuth_stairs": "Bismuth Stairs",
+  "block.whim.bismuth_slab": "Bismuth Slab",
+
+  "block.whim.bismuth_button": "Bismuth Button",
+  "block.whim.bismuth_pressure_plate": "Bismuth Pressure Plate",
+
+  "block.whim.bismuth_fence": "Bismuth Fence",
+  "block.whim.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.whim.bismuth_wall": "Bismuth Wall",
+
+  "block.whim.bismuth_trapdoor": "Bismuth Trapdoor",
+  "block.whim.bismuth_door": "Bismuth Door",
+
+  "block.whim.bismuth_lamp": "Bismuth Lamp",
+
   "creativetab.whim.bismuth_items": "Bismuth Items",
   "creativetab.whim.bismuth_blocks": "Bismuth Blocks",
 

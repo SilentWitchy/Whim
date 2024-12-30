@@ -37,6 +37,22 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(), ModItems.RAW_BISMUTH.get(), 2, 5));
 
+        dropSelf(ModBlocks.BISMUTH_STAIRS.get());
+        add(ModBlocks.BISMUTH_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BISMUTH_SLAB.get()));
+
+        dropSelf(ModBlocks.BISMUTH_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BISMUTH_BUTTON.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE.get());
+        dropSelf(ModBlocks.BISMUTH_FENCE_GATE.get());
+        dropSelf(ModBlocks.BISMUTH_WALL.get());
+        dropSelf(ModBlocks.BISMUTH_TRAPDOOR.get());
+
+        add(ModBlocks.BISMUTH_DOOR.get(),
+                block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
+
+        dropSelf(ModBlocks.BISMUTH_LAMP.get());
+
     }
     //This allows for ore to have a random min and max drop amount similar to copper ore that can be called upon.
     //item allows you to choose what item is dropped and the floats are the minimum drops number and maximum drops number
