@@ -1,7 +1,6 @@
 package net.august.whim.block.custom;
 
-import net.august.whim.item.ModItems;
-import net.august.whim.item.util.ModTags;
+import net.august.whim.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;

@@ -60,10 +60,10 @@ public class Whim {
         ModBlocks.register(modEventBus);
 
 
-        // Register the item to a creative tab
+        // Register the item to a creative tab.
         modEventBus.addListener(this::addCreative);
 
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
+        // Register our mod's ModConfigSpec so that FML can create and load the config file for us.
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
@@ -71,14 +71,14 @@ public class Whim {
 
     }
 
-    // Add the example block item to the building blocks tab
+    // Adds list to "ingredients" creative mode tab.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BISMUTH);
             event.accept(ModItems.RAW_BISMUTH);
 
         }
-
+        // Adds list to "building blocks" creative mode tab.
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE);
@@ -86,13 +86,11 @@ public class Whim {
         }
     }
 
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
 
     }
 
-        // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
         @EventBusSubscriber(modid = MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
         public static class ClientModEvents {
             @SubscribeEvent

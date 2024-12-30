@@ -1,4 +1,4 @@
-package net.august.whim.item.util;
+package net.august.whim.util;
 
 import net.august.whim.Whim;
 import net.minecraft.resources.ResourceLocation;
