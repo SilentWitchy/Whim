@@ -3,9 +3,13 @@
   "item.whim.raw_bismuth": "Raw Bismuth",
   "item.whim.chisel": "Chisel",
 
+  "item.whim.radish": "Radish",
+
   "block.whim.bismuth_block": "Block of Bismuth",
   "block.whim.bismuth_ore": "Bismuth Ore",
   "block.whim.bismuth_deepslate_ore": "Deepslate Bismuth Ore",
+
+  "block.whim.magic_block": "Magic block",
 
   "creativetab.whim.bismuth_items": "Bismuth Items",
   "creativetab.whim.bismuth_blocks": "Bismuth Blocks"
