@@ -1,4 +1,4 @@
-package net.august.whim.block.custom;
+package net.august.whim.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;

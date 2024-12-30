@@ -15,5 +15,10 @@
   "block.whim.magic_block": "Magic block",
 
   "creativetab.whim.bismuth_items": "Bismuth Items",
-  "creativetab.whim.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.whim.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.whim.magic_block.tooltip": "This Block is very §5M§bA§aG§eI§cC§6A§9L",
+  "tooltip.whim.chisel.shift_down": "This item can chisel blocks into bricks",
+  "tooltip.whim.chisel": "§ePress shift for more information§r",
+  "tooltip.whim.radish.tooltip": "Tastes really great!"
 }

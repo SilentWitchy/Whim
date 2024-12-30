@@ -1,15 +1,19 @@
 package net.august.whim.block.custom;
 
 import net.august.whim.item.ModItems;
+import net.august.whim.item.util.ModTags;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -33,16 +37,29 @@ public class MagicBlock extends Block {
     // if you wanted the items on here to do a specific thing it wouldn't work.
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity) {
-        if (entity instanceof ItemEntity itemEntity) {
-            if (itemEntity.getItem().getItem() == ModItems.RAW_BISMUTH.get()) {
+        if(entity instanceof ItemEntity itemEntity) {
+            //1A this checks if the item is part of the transformable items tag and sets to diamonds
+            if(isValidItem(itemEntity.getItem())) {
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
 
-            if (itemEntity.getItem().getItem() == Items.DANDELION) {
+            if(itemEntity.getItem().getItem() == Items.DANDELION) {
                 itemEntity.setItem(new ItemStack(Items.WITHER_ROSE, itemEntity.getItem().getCount()));
             }
         }
 
         super.stepOn(level, pos, state, entity);
     }
+
+    //1A this checks if the item is part of the transformable items tag
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
+    }
+
+    @Override
+    public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
+        tooltipComponents.add(Component.translatable("tooltip.whim.magic_block.tooltip"));
+        super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
+    }
 }
+
