@@ -1,4 +1,35 @@
-1. If the texture doesn't work, make sure it's listed under ModItemModelProvider
+
+
+
+Things to add
+Silverwood trees
+    sapplings
+       leafs
+       Logs
+       planks
+       tools
+shelf mushrooms that grow on trees and around water
+Hollowed loggs with moss around them and vines on the side.
+shimmerleaf from thaumcraft - would be easy to make them bushes but idk how to not make that food and how to make it spawn in specific locations.
+
+Crimson Knights
+    Armor
+        Knight armor
+            Armor trims
+        Mage armor
+            Armor trims
+    Weapons
+        Crimson Bow
+        Crimson Sword
+
+
+----------------------------------------------------------------------------------------------
+
+Things I want to add
+Oxidising copper pipes
+
+
+----------------------------------------------------------------------------------------------
 
 
 
@@ -21,20 +52,25 @@ To add a full armor set effect
         to
                        "() -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
 
-----------------------------------------------------------------------------------------------
-Things to add
-Silverwood trees
-    sapplings
-       leafs
-       Logs
-       planks
-       tools
-shelf mushrooms that grow on trees and around water
-Hollowed loggs with moss around them and vines on the side.
-shimmerleaf from thaumcraft
+To create a new trim pattern
+    1. Add under ModTrimMaterials "ModTrimMaterials" and "bootstrap".
+    2. Register new template under ModTrimPatterns
+    3. Register under "ModItems"
+    4. Add to "ModCreativeModeTabs"
+    5. Add to "ModItemModelProvider"
+    6. Add to en_us.json. There should be three translations: "item.", "trim_pattern.", and "trim_material.".
+    7. Add armor trim stone texture under textures>item.
+    8. Create and add color palette to textures>trim>color_palettes this is a line of 8 colored pixels, usually brightest to darkest.
+    9. Create and add texture for chest piece and leggings to  textures>trim>models>armor
+    10. Register new trim to armor_trims.json under resources>assets>minecraft>atlases. Register under both "textures" and "palette_key".
+    11. Add both "TRIM_MATERIALS" and "TRIM_TEMPLATES" under ModItemTagProvider.java
+    12. Add trimSmithing under ModRecipeProvider.java
 
 
 -----------------------------------------------------------------------------------------------
+
+
+
 Need to fix
 1. Lamp no texture
 
@@ -55,7 +91,3 @@ Unfortunately tutorial man hard coded the damn thing so good luck
         simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
                 ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")));
     }
-
-
-    Things I want to add
-    Copper pipes that oxidise like regular copper blocks

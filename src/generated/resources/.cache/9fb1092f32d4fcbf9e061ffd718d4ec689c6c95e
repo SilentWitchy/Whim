@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-30T14:26:31.4638348	Recipes
+// 1.21.1	2024-12-31T20:32:26.094717	Recipes
 aeff8853b0ff2ab6883faad9d26e775db9d73631 data/whim/advancement/recipes/building_blocks/bismuth_slab.json
 ed146b70bd92c80e5c6a916b2ebd1c71f804f9aa data/whim/advancement/recipes/building_blocks/bismuth_stairs.json
 39b474a04a467a48d6bd26abd1c6e66f3676f00b data/whim/advancement/recipes/building_blocks/bismuth_wall.json
@@ -12,6 +12,7 @@ fd1e098a7e58f09caada6142734c62dfed48f834 data/whim/advancement/recipes/misc/bism
 a3eceb7d2042a9714ea8d5f68750facec5739e70 data/whim/advancement/recipes/misc/bismuth_from_smelting_bismuth_deepslate_ore.json
 05ca6efe5396928122a84fa200149faef2b1b939 data/whim/advancement/recipes/misc/bismuth_from_smelting_bismuth_ore.json
 fd3c3004d8e5e029f0e84e1dd3a3922209ac710c data/whim/advancement/recipes/misc/bismuth_from_smelting_raw_bismuth.json
+49ab5f37c1141065a16b6d1222794d5ac4d1d8a7 data/whim/advancement/recipes/misc/witchy.json
 d7a0dd4f8b62062fee020ff8f575ebffcff3db0b data/whim/advancement/recipes/redstone/bismuth_button.json
 32a28050518d71dc940f8b580cf7803555d105b1 data/whim/advancement/recipes/redstone/bismuth_door.json
 2804f0c6f60544c7e349f134e11bd0074fa5b856 data/whim/advancement/recipes/redstone/bismuth_fence_gate.json
@@ -35,3 +36,4 @@ fa21e0588d204ec11b6f178c0cc1aad9109cbe62 data/whim/recipe/bismuth_slab.json
 31d418f36e981b5b3e665e7fd311e0cda46cc5ea data/whim/recipe/bismuth_stairs.json
 c79252caf0754d8468aa3a4e64a39116212f7b7d data/whim/recipe/bismuth_trapdoor.json
 be773e0d0e9e53accc7846fff26af2744330622e data/whim/recipe/bismuth_wall.json
+c91049484c460612a10d0747c27b5f343316a329 data/whim/recipe/witchy.json

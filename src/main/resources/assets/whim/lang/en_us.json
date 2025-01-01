@@ -22,6 +22,9 @@
   "item.whim.bismuth_chestplate": "Bismuth Chestplate",
   "item.whim.bismuth_leggings": "Bismuth Leggings",
   "item.whim.bismuth_boots": "Bismuth Boots",
+  "item.whim.bismuth_horse_armor": "Bismuth Horse Armor",
+
+  "item.whim.witchy_armor_trim_smithing_template": "Witchy Trim Template",
 
   "block.whim.bismuth_stairs": "Bismuth Stairs",
   "block.whim.bismuth_slab": "Bismuth Slab",
@@ -43,5 +46,9 @@
   "tooltip.whim.magic_block.tooltip": "This Block is very §5M§bA§aG§eI§cC§6A§9L",
   "tooltip.whim.chisel.shift_down": "This item can chisel blocks into bricks",
   "tooltip.whim.chisel": "§ePress shift for more information§r",
-  "tooltip.whim.radish.tooltip": "Tastes really great!"
+  "tooltip.whim.radish.tooltip": "Tastes really great!",
+
+  "trim_pattern.whim.witchy": "Witchy Armour Trim",
+  "trim_pattern.whim.bismuth": "Bismuth Material"
+
 }

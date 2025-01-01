@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-31T17:25:43.2529198	Item Models: whim
+// 1.21.1	2024-12-31T20:32:26.0917257	Item Models: whim
 e0738af665ab34e972d8390e0c65cdb90f5b2e01 assets/whim/models/item/bismuth.json
 8ca18ff33b1676ba74df3ff3ff931c2cbb4a7ee3 assets/whim/models/item/bismuth_axe.json
 c85693110239564ff1f63023be09e66904a7a522 assets/whim/models/item/bismuth_boots.json
@@ -39,6 +39,7 @@ b2d2d51d2979e577ab497b407cbd723385b5a263 assets/whim/models/item/bismuth_helmet_
 710cee6c1da394f57e3b0239160295249e092d0a assets/whim/models/item/bismuth_helmet_quartz_trim.json
 6aa8688dec3a5b8cc94e4eb2a30593a975ff321a assets/whim/models/item/bismuth_helmet_redstone_trim.json
 403ce2ecd6feed1357177e5f503aba6dbf59416a assets/whim/models/item/bismuth_hoe.json
+50f3fe67b83e5ac28d2bdf0d8953efd927a3b565 assets/whim/models/item/bismuth_horse_armor.json
 2bfaa46bf87bc9701396ce1fff5bf44ce88785ea assets/whim/models/item/bismuth_leggings.json
 15f2527c5526bd3c6241063fe5f8ebd23476342e assets/whim/models/item/bismuth_leggings_amethyst_trim.json
 b9fb4063bf63333682762a2d07b04fe797704504 assets/whim/models/item/bismuth_leggings_copper_trim.json
@@ -59,3 +60,4 @@ f7f2a8518288234aab0ea54c1bf2ff868191ba32 assets/whim/models/item/chisel.json
 3c1139f11b21548af452d186c7878ea73a14b15a assets/whim/models/item/radish.json
 e5b95830bef596cd0ce237ac362370c483b96402 assets/whim/models/item/raw_bismuth.json
 1d6ccdd7180374915d5e039787f4e996d21aa545 assets/whim/models/item/starlight_ashes.json
+4059af837d9800c2aaa0ec4ce3f75a5e357ab851 assets/whim/models/item/witchy_armor_trim_smithing_template.json

@@ -6,6 +6,7 @@ import net.august.whim.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 
@@ -22,7 +23,7 @@ public class ModRecipeProivder extends RecipeProvider {
         List<ItemLike> BISMUTH_SMELTABLES = List.of(ModItems.RAW_BISMUTH,
                 ModBlocks.BISMUTH_ORE, ModBlocks.BISMUTH_DEEPSLATE_ORE);
 
-//Shaped recipe.
+//Shaped recipe example.
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BISMUTH_BLOCK.get())
                 .pattern("BBB")
                 .pattern("BBB")
@@ -30,23 +31,23 @@ public class ModRecipeProivder extends RecipeProvider {
                 .define('B', ModItems.BISMUTH.get())
                 .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
 
-//shapeless recipe
+//shapeless recipe example.
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH.get(), 9)
                 .requires(ModBlocks.BISMUTH_BLOCK)
                 .unlockedBy("has_bismuth_block", has(ModBlocks.BISMUTH_BLOCK)).save(recipeOutput);
 
-//If multiple ways to get the same item you need to define the .json file name via the .save line below
+// If multiple ways to get the same item you need to define the .json file name via the .save line below.
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH.get(), 9)
                 .requires(ModBlocks.MAGIC_BLOCK)
                 .unlockedBy("has_magic_block", has(ModBlocks.MAGIC_BLOCK))
                 .save(recipeOutput, "whim:bismuth_from_magic_block");
 
-        //Defines what item you want to be smelt-able or blast-able. oreSmelting and Ore blasting are hard coded to be placed under date>minecraft.
-        //We fix this down below with custom Helpers
+        // Defines what item you want to be smelt-able or blast-able. oreSmelting and Ore blasting are hard coded to be placed under date>minecraft.
+        // We fix this down below with custom Helpers
         oreSmelting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 200, "bismuth");
         oreBlasting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 100, "bismuth");
 
-//instead of hand making the recipes, Minecraft has these methods to automatically generate the files.
+// Instead of hand making the recipes, Minecraft has these methods to automatically generate the files.
         stairBuilder(ModBlocks.BISMUTH_STAIRS.get(), Ingredient.of(ModItems.BISMUTH)).group("bismuth")
                 .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
         slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_SLAB.get(), ModItems.BISMUTH.get());
@@ -65,6 +66,8 @@ public class ModRecipeProivder extends RecipeProvider {
                 .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
         trapdoorBuilder(ModBlocks.BISMUTH_TRAPDOOR.get(), Ingredient.of(ModItems.BISMUTH.get())).group("bismuth")
                 .unlockedBy("has_bismuth", has(ModItems.BISMUTH.get())).save(recipeOutput);
+
+        trimSmithing(recipeOutput, ModItems.WITCHY_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID,"witchy"));
 
 
     }
