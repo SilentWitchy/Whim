@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-31T20:32:26.0917257	Item Models: whim
+// 1.21.1	2024-12-31T23:51:28.0365538	Item Models: whim
 e0738af665ab34e972d8390e0c65cdb90f5b2e01 assets/whim/models/item/bismuth.json
 8ca18ff33b1676ba74df3ff3ff931c2cbb4a7ee3 assets/whim/models/item/bismuth_axe.json
 c85693110239564ff1f63023be09e66904a7a522 assets/whim/models/item/bismuth_boots.json
@@ -55,7 +55,6 @@ d95ca20d2f4a98595ab86ee6d3c741e3aa2f1c4e assets/whim/models/item/bismuth_legging
 86361e41124eb85b5d681d453fb2bc3c2618b72d assets/whim/models/item/bismuth_shovel.json
 c65fa5c16ca5e0fbad0e97e49e2f421ea37cf6bb assets/whim/models/item/bismuth_sword.json
 8c121a8f3c645a020dc32c242ad5d64c08554f7f assets/whim/models/item/bismuth_wall.json
-f7f2a8518288234aab0ea54c1bf2ff868191ba32 assets/whim/models/item/chisel.json
 0dd3b5d9d23c5346834afd92f66e27d0d0fd22bd assets/whim/models/item/frostfire_ice.json
 3c1139f11b21548af452d186c7878ea73a14b15a assets/whim/models/item/radish.json
 e5b95830bef596cd0ce237ac362370c483b96402 assets/whim/models/item/raw_bismuth.json

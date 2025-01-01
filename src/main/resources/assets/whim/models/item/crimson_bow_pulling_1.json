@@ -1,0 +1,6 @@
+{
+    "parent": "whim:item/crimson_bow",
+    "textures": {
+        "layer0": "whim:item/crimson_bow_pulling_1"
+    }
+}

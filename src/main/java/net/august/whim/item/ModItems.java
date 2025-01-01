@@ -82,6 +82,9 @@ public class ModItems {
     public static final DeferredItem<Item> WITCHY_SMITHING_TEMPLATE = ITEMS.register("witchy_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID,"witchy")));
 
+    public static final DeferredItem<Item> CRIMSON_BOW = ITEMS.register("crimson_bow",
+            () -> new BowItem(new Item.Properties().durability(500)));
+
 
 
     public static void register(IEventBus eventBus) {
