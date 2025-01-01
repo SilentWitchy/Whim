@@ -4,6 +4,7 @@ import net.august.whim.block.ModBlocks;
 import net.august.whim.component.ModDataComponents;
 import net.august.whim.item.ModCreativeModeTabs;
 import net.august.whim.item.ModItems;
+import net.august.whim.util.ModItemProperties;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -98,7 +99,9 @@ public class Whim {
         public static class ClientModEvents {
             @SubscribeEvent
             public static void onClientSetup(FMLClientSetupEvent event) {
+                ModItemProperties.addCustomItemProperties();
 
-        }
+
+            }
     }
 }
