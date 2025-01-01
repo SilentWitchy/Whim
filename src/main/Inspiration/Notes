@@ -1,6 +1,8 @@
-1. If the texture doesnt work, make sure it's listed under ModItemModelProvider
+1. If the texture doesn't work, make sure it's listed under ModItemModelProvider
 
-2. To create a new block :
+
+
+To create a new block :
     1. Add to ModBlocks.Java
     2. Add to ModCreativeModeTabs
     3. Add to ModBlockLootTableProvider
@@ -10,10 +12,31 @@
     4. Add translation TO en_us.json
     5. Add textures to texture folder
 
+To add a full armor set effect
+    1. Create .put(ModArmorMaterials.ARMOR NAME, in ModArmorItem.java
+    2. Add effects to List.of
+    3. Change ModIems. Note: Only a single piece needs to be changed but all can be if preferred.
+        from
+                       "() -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
+        to
+                       "() -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
 
+----------------------------------------------------------------------------------------------
+Things to add
+Silverwood trees
+    sapplings
+       leafs
+       Logs
+       planks
+       tools
+shelf mushrooms that grow on trees and around water
+Hollowed loggs with moss around them and vines on the side.
+shimmerleaf from thaumcraft
+
+
+-----------------------------------------------------------------------------------------------
 Need to fix
-1. door and trapdoor not working
-2. Lamp no texture
+1. Lamp no texture
 
 I need to rename the ModBlockStateProvider "customLamp" to something more like activeInactive to be more general use
 Unfortunately tutorial man hard coded the damn thing so good luck
@@ -32,3 +55,7 @@ Unfortunately tutorial man hard coded the damn thing so good luck
         simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
                 ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")));
     }
+
+
+    Things I want to add
+    Copper pipes that oxidise like regular copper blocks

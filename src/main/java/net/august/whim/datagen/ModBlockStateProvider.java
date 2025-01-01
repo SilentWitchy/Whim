@@ -2,11 +2,8 @@ package net.august.whim.datagen;
 
 import net.august.whim.Whim;
 import net.august.whim.block.ModBlocks;
-import net.august.whim.block.custom.BismuthLampBlock;
 import net.minecraft.data.PackOutput;
-import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
-import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -44,21 +41,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BISMUTH_PRESSURE_PLATE);
         blockItem(ModBlocks.BISMUTH_FENCE_GATE);
         blockItem(ModBlocks.BISMUTH_TRAPDOOR, "_bottom");
-    }
-
-    private void customLamp() {
-        getVariantBuilder(ModBlocks.BISMUTH_LAMP.get()).forAllStates(state -> {
-            if(state.getValue(BismuthLampBlock.CLICKED)) {
-                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_on",
-                        ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")))};
-            } else {
-                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("bismuth_lamp_off",
-                        ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_off")))};
-            }
-        });
-
-        simpleBlockItem(ModBlocks.BISMUTH_LAMP.get(), models().cubeAll("bismuth_lamp_on",
-                ResourceLocation.fromNamespaceAndPath(Whim.MOD_ID, "block/" + "bismuth_lamp_on")));
     }
 
     //This generates BlockState.json, the BlockModel.json and ItemModel.json automatically instead of having to do so manually.

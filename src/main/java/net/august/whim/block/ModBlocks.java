@@ -1,7 +1,6 @@
 package net.august.whim.block;
 
 import net.august.whim.Whim;
-import net.august.whim.block.custom.BismuthLampBlock;
 import net.august.whim.block.custom.MagicBlock;
 import net.august.whim.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -61,11 +60,6 @@ public class ModBlocks {
             () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
     public static final DeferredBlock<TrapDoorBlock> BISMUTH_TRAPDOOR = registerBlock("bismuth_trapdoor",
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().noOcclusion()));
-
-//The second to last blue number is the light level
-    public static final DeferredBlock<Block> BISMUTH_LAMP = registerBlock("bismuth_lamp",
-            () -> new BismuthLampBlock(BlockBehaviour.Properties.of().strength(2f)
-                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(BismuthLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

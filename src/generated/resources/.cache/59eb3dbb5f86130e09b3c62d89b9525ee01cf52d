@@ -1,11 +1,10 @@
-// 1.21.1	2024-12-30T15:13:37.6187998	Loot Tables
+// 1.21.1	2024-12-31T03:53:33.2697547	Loot Tables
 5dec20f1abc73236b7111f69f739d6cfc1423376 data/whim/loot_table/blocks/bismuth_block.json
 e1c7951136d61d9092a53e1d7609f2a91d68b602 data/whim/loot_table/blocks/bismuth_button.json
 dcf400d304097363935bc194f1b9d80c4a99d4c8 data/whim/loot_table/blocks/bismuth_deepslate_ore.json
 3d925972b0e7d381694272e57454a57970976762 data/whim/loot_table/blocks/bismuth_door.json
 3ed7d47ed090cc9349371d730c800e4e46419cf9 data/whim/loot_table/blocks/bismuth_fence.json
 59693026447d2c1fd3b13364977b2fdf4bcc9057 data/whim/loot_table/blocks/bismuth_fence_gate.json
-9a20f675f5d77048b41e5e0065c79859d8eeccc8 data/whim/loot_table/blocks/bismuth_lamp.json
 91779c6e569d4239d99973f6c71b414ebe2e287c data/whim/loot_table/blocks/bismuth_ore.json
 5ce196b8c1753511c95a173240b64f0ee757aa44 data/whim/loot_table/blocks/bismuth_pressure_plate.json
 6e28da3a61ee277a7ac0b34b681fa21f4f8bc4e2 data/whim/loot_table/blocks/bismuth_slab.json

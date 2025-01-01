@@ -51,8 +51,6 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.BISMUTH_DOOR.get(),
                 block -> createDoorTable(ModBlocks.BISMUTH_DOOR.get()));
 
-        dropSelf(ModBlocks.BISMUTH_LAMP.get());
-
     }
     //This allows for ore to have a random min and max drop amount similar to copper ore that can be called upon.
     //item allows you to choose what item is dropped and the floats are the minimum drops number and maximum drops number

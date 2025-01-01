@@ -1,33 +1,41 @@
 {
   "item.whim.bismuth": "Bismuth",
   "item.whim.raw_bismuth": "Raw Bismuth",
-  "item.whim.chisel": "Chisel",
-
-  "item.whim.radish": "Radish",
-
-  "item.whim.starlight_ashes": "Starlight",
-  "item.whim.frostfire_ice": "Frostfire Ice",
 
   "block.whim.bismuth_block": "Block of Bismuth",
   "block.whim.bismuth_ore": "Bismuth Ore",
   "block.whim.bismuth_deepslate_ore": "Deepslate Bismuth Ore",
 
-  "block.whim.magic_block": "Magic Block",
+  "item.whim.starlight_ashes": "Starlight",
+  "item.whim.frostfire_ice": "Frostfire Ice",
+
+  "item.whim.bismuth_sword": "Bismuth Sword",
+  "item.whim.bismuth_pickaxe": "Bismuth Pickaxe",
+  "item.whim.bismuth_shovel": "Bismuth Shovel",
+  "item.whim.bismuth_axe": "Bismuth Axe",
+  "item.whim.bismuth_hoe": "Bismuth Hoe",
+
+  "item.whim.bismuth_hammer": "Bismuth Hammer",
+  "item.whim.chisel": "Chisel",
+
+  "item.whim.bismuth_helmet": "Bismuth Helmet",
+  "item.whim.bismuth_chestplate": "Bismuth Chestplate",
+  "item.whim.bismuth_leggings": "Bismuth Leggings",
+  "item.whim.bismuth_boots": "Bismuth Boots",
 
   "block.whim.bismuth_stairs": "Bismuth Stairs",
   "block.whim.bismuth_slab": "Bismuth Slab",
-
-  "block.whim.bismuth_button": "Bismuth Button",
-  "block.whim.bismuth_pressure_plate": "Bismuth Pressure Plate",
-
   "block.whim.bismuth_fence": "Bismuth Fence",
   "block.whim.bismuth_fence_gate": "Bismuth Fence Gate",
   "block.whim.bismuth_wall": "Bismuth Wall",
-
   "block.whim.bismuth_trapdoor": "Bismuth Trapdoor",
   "block.whim.bismuth_door": "Bismuth Door",
+  "block.whim.bismuth_button": "Bismuth Button",
+  "block.whim.bismuth_pressure_plate": "Bismuth Pressure Plate",
 
-  "block.whim.bismuth_lamp": "Bismuth Lamp",
+  "block.whim.magic_block": "Magic Block",
+
+  "item.whim.radish": "Radish",
 
   "creativetab.whim.bismuth_items": "Bismuth Items",
   "creativetab.whim.bismuth_blocks": "Bismuth Blocks",

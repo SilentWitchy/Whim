@@ -1,6 +1,7 @@
 package net.august.whim;
 
 import net.august.whim.block.ModBlocks;
+import net.august.whim.component.ModDataComponents;
 import net.august.whim.item.ModCreativeModeTabs;
 import net.august.whim.item.ModItems;
 import org.slf4j.Logger;
@@ -58,6 +59,8 @@ public class Whim {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
 
         // Register the item to a creative tab.

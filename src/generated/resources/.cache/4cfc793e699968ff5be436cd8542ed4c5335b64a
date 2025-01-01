@@ -1,2 +1,8 @@
-// 1.21.1	2024-12-30T04:41:56.5605918	Tags for minecraft:item mod id whim
+// 1.21.1	2024-12-31T17:25:43.2559115	Tags for minecraft:item mod id whim
+ba61db97f3f76c6f29b24ab94f5169a328907a97 data/minecraft/tags/item/axes.json
+5663ff2d335eac83b3513a208310d2e4706d0362 data/minecraft/tags/item/hoes.json
+824e654f00ccc90e361d180c6c5b98ad27a3635e data/minecraft/tags/item/pickaxes.json
+9f4b32af827c67325d764294d4bebcf5765354c7 data/minecraft/tags/item/shovels.json
+342b402431f58e584ee1d4bdb6af8cf35587c3b7 data/minecraft/tags/item/swords.json
+bcfa86fbccca666144eb20543ee4d2e18145ee12 data/minecraft/tags/item/trimmable_armor.json
 b3eca96be1a6e851953c23e5c0228212a3c435d7 data/whim/tags/item/transformable_items.json
