@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "whim:magic_block"
+    }
+  ],
+  "result": {
+    "count": 18,
+    "id": "whim:bismuth"
+  }
+}

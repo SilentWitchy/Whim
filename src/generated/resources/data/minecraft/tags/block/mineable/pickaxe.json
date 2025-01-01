@@ -1,8 +1,8 @@
 {
   "values": [
-    "tutorialmod:bismuth_block",
-    "tutorialmod:bismuth_ore",
-    "tutorialmod:bismuth_lamp",
-    "tutorialmod:bismuth_deepslate_ore"
+    "whim:bismuth_block",
+    "whim:bismuth_ore",
+    "whim:bismuth_lamp",
+    "whim:bismuth_deepslate_ore"
   ]
 }

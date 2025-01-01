@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "whim:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "whim:block/bismuth_lamp_on"
+    }
+  }
+}

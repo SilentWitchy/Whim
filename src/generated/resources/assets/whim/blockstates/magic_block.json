@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "whim:block/magic_block"
+    }
+  }
+}
