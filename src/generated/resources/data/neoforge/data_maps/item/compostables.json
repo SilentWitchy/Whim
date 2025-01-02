@@ -1,0 +1,10 @@
+{
+  "values": {
+    "whim:radish": {
+      "chance": 0.45
+    },
+    "whim:radish_seeds": {
+      "chance": 0.25
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "asset_id": "whim:witchy",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.whim.witchy"
+  },
+  "template_item": "whim:witchy_armor_trim_smithing_template"
+}
