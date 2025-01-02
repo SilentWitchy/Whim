@@ -29,10 +29,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-        ModelFile pedestal = models().withExistingParent("pedestal", this.modLoc("block/pedestal"));
-        Block block = ModBlocks.PEDESTAL.get();
-
-
         blockWithItem(ModBlocks.BISMUTH_BLOCK);
 
         blockWithItem(ModBlocks.BISMUTH_ORE);
