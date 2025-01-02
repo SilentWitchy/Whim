@@ -47,17 +47,31 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(ModBlocks.BISMUTH_NETHER_ORE.get(), ModItems.RAW_BISMUTH.get(), 4, 8));
 
         add(ModBlocks.ASPECT_AER_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_AER_ORE.get(), ModItems.ASPECT_AER_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_AER_ORE.get(), ModItems.ASPECT_AER_SHARD.get(), 1, 2));
         add(ModBlocks.ASPECT_AQUA_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_AQUA_ORE.get(), ModItems.ASPECT_AQUA_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_AQUA_ORE.get(), ModItems.ASPECT_AQUA_SHARD.get(), 1, 2));
         add(ModBlocks.ASPECT_IGNIS_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_IGNIS_ORE.get(), ModItems.ASPECT_IGNIS_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_IGNIS_ORE.get(), ModItems.ASPECT_IGNIS_SHARD.get(), 1, 2));
         add(ModBlocks.ASPECT_ORDO_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_ORDO_ORE.get(), ModItems.ASPECT_ORDO_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_ORDO_ORE.get(), ModItems.ASPECT_ORDO_SHARD.get(), 1, 2));
         add(ModBlocks.ASPECT_PERDITIO_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_PERDITIO_ORE.get(), ModItems.ASPECT_PERDITIO_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_PERDITIO_ORE.get(), ModItems.ASPECT_PERDITIO_SHARD.get(), 1, 2));
         add(ModBlocks.ASPECT_TERRA_ORE.get(),
-                block -> createMultipleOreDrops(ModBlocks.ASPECT_TERRA_ORE.get(), ModItems.ASPECT_TERRA_SHARD.get(), 1, 3));
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_TERRA_ORE.get(), ModItems.ASPECT_TERRA_SHARD.get(), 1, 2));
+
+
+        add(ModBlocks.ASPECT_AER_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_AER_DEEPSLATE_ORE.get(), ModItems.ASPECT_AER_SHARD.get(), 2, 3));
+        add(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE.get(), ModItems.ASPECT_AQUA_SHARD.get(), 2, 3));
+        add(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE.get(), ModItems.ASPECT_IGNIS_SHARD.get(), 2, 3));
+        add(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE.get(), ModItems.ASPECT_ORDO_SHARD.get(), 2, 3));
+        add(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE.get(), ModItems.ASPECT_PERDITIO_SHARD.get(), 2, 3));
+        add(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE.get(), ModItems.ASPECT_TERRA_SHARD.get(), 2, 3));
 
         dropSelf(ModBlocks.BISMUTH_STAIRS.get());
         add(ModBlocks.BISMUTH_SLAB.get(),

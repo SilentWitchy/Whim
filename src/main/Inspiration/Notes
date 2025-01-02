@@ -14,12 +14,17 @@ so I need to work on replacing what I have with my own models.
 
 Hello!
 Did you have a specific way we can request new topics for your videos?
+Capes
+
+execute at @a run fill ~-100 ~-170 ~-100 ~100 ~170 ~100 air replace minecraft:grass
+
+why arent my ores spawning unless the vein count is high?
 ----------------------------------------------------------------------------------------------
 
 
 
 Items to add
-SHARDS                                                           DONE
+SHARDS
     Air (Aer)
     Fire (Ignis)
     Water (Aqua)

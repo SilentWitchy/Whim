@@ -24,14 +24,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BISMUTH_ORE.get())
                 .add(ModBlocks.BISMUTH_LAMP.get())
                 .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
-                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
                 .add(ModBlocks.ASPECT_AER_ORE.get())
                 .add(ModBlocks.ASPECT_AQUA_ORE.get())
                 .add(ModBlocks.ASPECT_IGNIS_ORE.get())
                 .add(ModBlocks.ASPECT_ORDO_ORE.get())
                 .add(ModBlocks.ASPECT_TERRA_ORE.get())
                 .add(ModBlocks.ASPECT_PERDITIO_ORE.get())
-                .add(ModBlocks.PEDESTAL.get());
+                .add(ModBlocks.PEDESTAL.get())
+                .add(ModBlocks.ASPECT_AER_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE.get());
 
 
         tag(BlockTags.NEEDS_IRON_TOOL)
@@ -41,7 +46,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ASPECT_IGNIS_ORE.get())
                 .add(ModBlocks.ASPECT_ORDO_ORE.get())
                 .add(ModBlocks.ASPECT_TERRA_ORE.get())
-                .add(ModBlocks.ASPECT_PERDITIO_ORE.get());
+                .add(ModBlocks.ASPECT_PERDITIO_ORE.get())
+                .add(ModBlocks.ASPECT_AER_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE.get());
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)

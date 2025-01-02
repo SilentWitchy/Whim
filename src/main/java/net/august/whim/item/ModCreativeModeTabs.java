@@ -63,6 +63,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ASPECT_TERRA_SHARD);
 
 
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
@@ -107,6 +108,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ASPECT_IGNIS_ORE);
                         output.accept(ModBlocks.ASPECT_PERDITIO_ORE);
                         output.accept(ModBlocks.ASPECT_TERRA_ORE);
+                        output.accept(ModBlocks.ASPECT_AER_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE);
 
                         output.accept(ModBlocks.PEDESTAL);
 

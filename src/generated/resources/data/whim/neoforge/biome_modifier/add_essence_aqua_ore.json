@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "whim:essence_aqua_ore_placed",
+  "step": "underground_ores"
+}

@@ -4,13 +4,18 @@
     "whim:bismuth_ore",
     "whim:bismuth_lamp",
     "whim:bismuth_deepslate_ore",
-    "whim:bismuth_deepslate_ore",
     "whim:aspect_aer_ore",
     "whim:aspect_aqua_ore",
     "whim:aspect_ignis_ore",
     "whim:aspect_ordo_ore",
     "whim:aspect_terra_ore",
     "whim:aspect_perditio_ore",
-    "whim:pedestal"
+    "whim:pedestal",
+    "whim:aspect_aer_deepslate_ore",
+    "whim:aspect_aqua_deepslate_ore",
+    "whim:aspect_ignis_deepslate_ore",
+    "whim:aspect_ordo_deepslate_ore",
+    "whim:aspect_terra_deepslate_ore",
+    "whim:aspect_perditio_deepslate_ore"
   ]
 }

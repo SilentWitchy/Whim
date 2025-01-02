@@ -6,6 +6,12 @@
     "whim:aspect_ignis_ore",
     "whim:aspect_ordo_ore",
     "whim:aspect_terra_ore",
-    "whim:aspect_perditio_ore"
+    "whim:aspect_perditio_ore",
+    "whim:aspect_aer_deepslate_ore",
+    "whim:aspect_aqua_deepslate_ore",
+    "whim:aspect_ignis_deepslate_ore",
+    "whim:aspect_ordo_deepslate_ore",
+    "whim:aspect_terra_deepslate_ore",
+    "whim:aspect_perditio_deepslate_ore"
   ]
 }

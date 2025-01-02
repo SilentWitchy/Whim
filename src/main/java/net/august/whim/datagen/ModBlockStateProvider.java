@@ -40,6 +40,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ASPECT_ORDO_ORE);
         blockWithItem(ModBlocks.ASPECT_PERDITIO_ORE);
         blockWithItem(ModBlocks.ASPECT_TERRA_ORE);
+        blockWithItem(ModBlocks.ASPECT_AER_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE);
 
         blockWithItem(ModBlocks.MAGIC_BLOCK);
 

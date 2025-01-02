@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "whim:block/aspect_terra_deepslate_ore"
+  }
+}

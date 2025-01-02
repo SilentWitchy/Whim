@@ -19,6 +19,13 @@
   "block.whim.aspect_ordo_ore": "Ordo Infused Ore",
   "block.whim.aspect_perditio_ore": "Perditio Infused Ore",
   "block.whim.aspect_terra_ore": "Terra Infused Ore",
+  "block.whim.aspect_aer_deepslate_ore": "Aer Infused Ore",
+  "block.whim.aspect_aqua_deepslate_ore": "Aqua Infused Ore",
+  "block.whim.aspect_ignis_deepslate_ore": "Ignis Infused Ore",
+  "block.whim.aspect_ordo_deepslate_ore": "Ordo Infused Ore",
+  "block.whim.aspect_perditio_deepslate_ore": "Perditio Infused Ore",
+  "block.whim.aspect_terra_deepslate_ore": "Terra Infused Ore",
+
 
   "item.whim.bismuth_sword": "Bismuth Sword",
   "item.whim.bismuth_pickaxe": "Bismuth Pickaxe",
