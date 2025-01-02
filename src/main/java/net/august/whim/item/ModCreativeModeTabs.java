@@ -55,6 +55,13 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.GECKO_SPAWN_EGG);
 
+                        output.accept(ModItems.ASPECT_AER_SHARD);
+                        output.accept(ModItems.ASPECT_AQUA_SHARD);
+                        output.accept(ModItems.ASPECT_IGNIS_SHARD);
+                        output.accept(ModItems.ASPECT_ORDO_SHARD);
+                        output.accept(ModItems.ASPECT_PERDITIO_SHARD);
+
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
@@ -92,6 +99,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOODWOOD_SAPLING.get());
 
                         output.accept(ModBlocks.BLOODWOOD_LEAVES.get());
+
+                        output.accept(ModBlocks.ASPECT_AER_ORE);
+                        output.accept(ModBlocks.ASPECT_AQUA_ORE);
+                        output.accept(ModBlocks.ASPECT_ORDO_ORE);
+                        output.accept(ModBlocks.ASPECT_IGNIS_ORE);
+                        output.accept(ModBlocks.ASPECT_PERDITIO_ORE);
 
                     }).build());
 

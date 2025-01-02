@@ -40,6 +40,17 @@ public class ModItems {
     public static final DeferredItem<Item> STARLIGHT_ASHES = ITEMS.register("starlight_ashes",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> ASPECT_AER_SHARD = ITEMS.register("aspect_aer_shard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ASPECT_IGNIS_SHARD = ITEMS.register("aspect_ignis_shard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ASPECT_AQUA_SHARD = ITEMS.register("aspect_aqua_shard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ASPECT_ORDO_SHARD = ITEMS.register("aspect_ordo_shard",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ASPECT_PERDITIO_SHARD = ITEMS.register("aspect_perditio_shard",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<SwordItem> BISMUTH_SWORD = ITEMS.register("bismuth_sword",
             () -> new SwordItem(ModToolTiers.BISMUTH, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.BISMUTH, 5, -2.4f))));

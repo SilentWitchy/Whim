@@ -1,71 +1,56 @@
 {
   "item.whim.bismuth": "Bismuth",
+  "block.whim.bismuth_ore": "Bismuth Ore",
+  "block.whim.bismuth_end_ore": "Bismuth End Ore",
+  "block.whim.bismuth_nether_ore": "Bismuth Nether Ore",
+  "block.whim.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
   "item.whim.raw_bismuth": "Raw Bismuth",
-  "item.whim.chisel": "Chisel",
+  "block.whim.bismuth_block": "Block of Bismuth",
 
-  "item.whim.radish": "Radish",
-  "item.whim.frostfire_ice": "Frostfire Ice",
-  "item.whim.starlight_ashes": "Starlight Ashes",
+  "item.whim.aspect_aer_shard": "Aer Aspect Shard",
+  "item.whim.aspect_aqua_shard": "Aqua Aspect Shard",
+  "item.whim.aspect_ignis_shard": "Ignis Aspect Shard",
+  "item.whim.aspect_ordo_shard": "Ordo Aspect Shard",
+  "item.whim.aspect_perditio_shard": "Perditio Aspect Shard",
+  "block.whim.aspect_aer_ore": "Aer Infused Ore",
+  "block.whim.aspect_aqua_ore": "Aqua Infused Ore",
+  "block.whim.aspect_ignis_ore": "Ignis Infused Ore",
+  "block.whim.aspect_ordo_ore": "Ordo Infused Ore",
+  "block.whim.aspect_perditio_ore": "Perditio Infused Ore",
 
   "item.whim.bismuth_sword": "Bismuth Sword",
   "item.whim.bismuth_pickaxe": "Bismuth Pickaxe",
   "item.whim.bismuth_shovel": "Bismuth Shovel",
   "item.whim.bismuth_axe": "Bismuth Axe",
   "item.whim.bismuth_hoe": "Bismuth Hoe",
-
-  "item.whim.bismuth_hammer": "Bismuth Hammer",
-
-  "item.whim.bismuth_helmet": "Bismuth Helmet",
-  "item.whim.bismuth_chestplate": "Bismuth Chestplate",
-  "item.whim.bismuth_leggings": "Bismuth Leggings",
-  "item.whim.bismuth_boots": "Bismuth Boots",
-
-  "item.whim.bismuth_horse_armor": "Bismuth Horse Armor",
-  "item.whim.witchy_armor_trim_smithing_template": "Witchy Trim Template",
-
   "item.whim.crimson_bow": "Crimson Bow",
 
-  "item.whim.bar_brawl_music_disc": "Bar Brawl Music Disc",
-  "item.whim.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
-  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
-  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
-  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
-  "item.whim.radish_seeds": "Radish Seeds",
-  "item.whim.goji_berries": "Goji Berries",
-
-  "item.whim.gecko_spawn_egg": "Gecko Spawn Egg",
-
+  "item.whim.chisel": "Chisel",
+  "item.whim.bismuth_hammer": "Bismuth Hammer",
   "item.whim.tomahawk": "Tomahawk",
 
 
-  "block.whim.bismuth_block": "Block of Bismuth",
-  "block.whim.bismuth_ore": "Bismuth Ore",
-  "block.whim.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
-
-  "block.whim.bismuth_end_ore": "Bismuth End Ore",
-  "block.whim.bismuth_nether_ore": "Bismuth Nether Ore",
-
-  "block.whim.magic_block": "Magic Block",
-
   "block.whim.bismuth_stairs": "Bismuth Stairs",
   "block.whim.bismuth_slab": "Bismuth Slab",
-
+  "block.whim.magic_block": "Magic Block",
   "block.whim.bismuth_button": "Bismuth Button",
   "block.whim.bismuth_pressure_plate": "Bismuth Pressure Plate",
-
   "block.whim.bismuth_fence": "Bismuth Fence",
   "block.whim.bismuth_fence_gate": "Bismuth Fence Gate",
   "block.whim.bismuth_wall": "Bismuth Wall",
-
   "block.whim.bismuth_door": "Bismuth Door",
   "block.whim.bismuth_trapdoor": "Bismuth Trapdoor",
-
   "block.whim.bismuth_lamp": "Bismuth Lamp",
 
+
+  "item.whim.radish": "Radish",
+  "item.whim.radish_seeds": "Radish Seeds",
+  "item.whim.goji_berries": "Goji Berries",
   "block.whim.radish_crop": "Radish Crop",
   "block.whim.goji_berry_bush": "Goji Berry Bush",
+
 
   "block.whim.bloodwood_log": "Bloodwood Log",
   "block.whim.bloodwood_planks": "Bloodwood Planks",
@@ -73,14 +58,38 @@
   "block.whim.stripped_bloodwood_log": "Stripped Bloodwood Log",
   "block.whim.stripped_bloodwood_wood": "Stripped Bloodwood Wood",
   "block.whim.bloodwood_leaves": "Bloodwood Leaves",
-
   "block.whim.bloodwood_sapling": "Bloodwood Sapling",
 
 
-  "creativetab.whim.bismuth_items": "Bismuth Items",
-  "creativetab.whim.bismuth_blocks": "Bismuth Blocks",
+  "item.whim.frostfire_ice": "Frostfire Ice",
+  "item.whim.starlight_ashes": "Starlight Ashes",
 
-  "effect.whim.slimey": "Slimey",
+
+  "item.whim.bismuth_helmet": "Bismuth Helmet",
+  "item.whim.bismuth_chestplate": "Bismuth Chestplate",
+  "item.whim.bismuth_leggings": "Bismuth Leggings",
+  "item.whim.bismuth_boots": "Bismuth Boots",
+
+
+  "item.whim.bismuth_horse_armor": "Bismuth Horse Armor",
+  "item.whim.witchy_armor_trim_smithing_template": "Witchy Trim Template",
+  "trim_pattern.whim.witchy": "Witchy Armor Trim",
+  "trim_material.whim.bismuth": "Bismuth Material",
+
+
+  "item.whim.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.whim.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+
+  "item.whim.gecko_spawn_egg": "Gecko Spawn Egg",
+  "entity.mccourse.gecko": "Gecko",
+  "entity.mccourse.tomahawk": "Tomahawk",
+
 
   "painting.whim.world.title": "World",
   "painting.whim.world.author": "NanoAttack",
@@ -90,18 +99,14 @@
   "painting.whim.saw_them.author": "NanoAttack",
 
 
+  "effect.whim.slimey": "Slimey",
   "enchantment.whim.lightning_striker": "Lightning Striker",
 
-  "tooltip.whim.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "creativetab.whim.bismuth_items": "Bismuth Items",
+  "creativetab.whim.bismuth_blocks": "Bismuth Blocks",
 
+  "tooltip.whim.magic_block.tooltip": "This Block is very §9MAGICAL§r",
   "tooltip.whim.chisel.shift_down": "This Item can chisel Blocks into Bricks",
   "tooltip.whim.chisel": "Press §eShift§r for more Information",
-
-  "tooltip.whim.radish.tooltip": "Tastes really great!",
-
-  "trim_pattern.whim.witchy": "Witchy Armor Trim",
-  "trim_material.whim.bismuth": "Bismuth Material",
-
-  "entity.mccourse.gecko": "Gecko",
-  "entity.mccourse.tomahawk": "Tomahawk"
+  "tooltip.whim.radish.tooltip": "Tastes really great!"
 }

@@ -23,10 +23,22 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BISMUTH_BLOCK.get())
                 .add(ModBlocks.BISMUTH_ORE.get())
                 .add(ModBlocks.BISMUTH_LAMP.get())
-                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get());
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_AER_ORE.get())
+                .add(ModBlocks.ASPECT_AQUA_ORE.get())
+                .add(ModBlocks.ASPECT_IGNIS_ORE.get())
+                .add(ModBlocks.ASPECT_ORDO_ORE.get())
+                .add(ModBlocks.ASPECT_PERDITIO_ORE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get());
+                .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
+                .add(ModBlocks.ASPECT_AER_ORE.get())
+                .add(ModBlocks.ASPECT_AQUA_ORE.get())
+                .add(ModBlocks.ASPECT_IGNIS_ORE.get())
+                .add(ModBlocks.ASPECT_ORDO_ORE.get())
+                .add(ModBlocks.ASPECT_PERDITIO_ORE.get());
+
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.BISMUTH_LAMP.get());

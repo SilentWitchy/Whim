@@ -38,6 +38,22 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final DeferredBlock<Block> ASPECT_AER_ORE = registerBlock("aspect_aer_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ASPECT_AQUA_ORE = registerBlock("aspect_aqua_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ASPECT_IGNIS_ORE = registerBlock("aspect_ignis_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ASPECT_ORDO_ORE = registerBlock("aspect_ordo_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ASPECT_PERDITIO_ORE = registerBlock("aspect_perditio_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
     public static final DeferredBlock<Block> BISMUTH_END_ORE = registerBlock("bismuth_end_ore",
             () -> new DropExperienceBlock(UniformInt.of(5, 9),
                     BlockBehaviour.Properties.of().strength(7f).requiresCorrectToolForDrops()));

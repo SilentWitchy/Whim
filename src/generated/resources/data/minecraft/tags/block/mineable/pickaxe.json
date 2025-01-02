@@ -3,6 +3,12 @@
     "whim:bismuth_block",
     "whim:bismuth_ore",
     "whim:bismuth_lamp",
-    "whim:bismuth_deepslate_ore"
+    "whim:bismuth_deepslate_ore",
+    "whim:bismuth_deepslate_ore",
+    "whim:aspect_aer_ore",
+    "whim:aspect_aqua_ore",
+    "whim:aspect_ignis_ore",
+    "whim:aspect_ordo_ore",
+    "whim:aspect_perditio_ore"
   ]
 }

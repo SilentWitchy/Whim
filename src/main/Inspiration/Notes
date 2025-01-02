@@ -1,0 +1,177 @@
+I think I should look into paring my mod with another one that adds better fighting mechanics/animations.
+I can possibly also use their bosses for progression.
+
+I want the mod to have two sides, horror and occult and fairly light cute fun research.
+This can be interacted with directly in the book by having the quests and story be different.
+
+I got the shard texture from https://www.planetminecraft.com/texture-pack/better-amethyst-v2/
+Need to request their use or create my own from scratch
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+Items to add
+SHARDS                                                           DONE
+    Air (Aer)
+    Fire (Ignis)
+    Water (Aqua)
+    Earth (Terra)
+    Order (Ordo)
+    Entropy (Perditio)
+
+Knowledge fragments
+    Combine 9 to make research notes
+Research Notes
+Glass Phial
+
+I want making a wand to be a very cool process- possibly similar to how tinkers works
+Wand caps
+    Silverwood
+    Bloodwood
+    copper
+    iron
+    gold
+    emerald
+    diamond
+    bismuth
+    Netherite
+    Lapiz
+
+Wand core
+    Silverwood
+    Bloodwood
+    copper
+    iron
+    gold
+    emerald
+    diamond
+    bismuth
+    Netherite
+    Lapiz
+    Blaze Rod
+    ender rod
+    netherite rod
+
+Wand Focus
+
+
+
+
+
+
+Thaumonomicon from wand
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+Concepts to add --function--
+
+Silverwood trees
+Silverwood Sapplings
+Silverwood tools
+Shimmerleaf (Bushes?)
+Knight orders
+    Crimson Knights
+        Armor
+            Knight armor
+                Armor trims
+            Mage armor
+                Armor trims
+        Weapons
+            Crimson Bow
+            Crimson Sword
+Legendary creatures
+    Mob that detests light
+Witch doctor
+Butterfly raising that genearates vis
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+Things to add --cosmetic--
+
+shelf mushrooms that grow on trees and around water
+Hollowed logs with moss around them and vines on the side.
+Firefly's
+Oxidising copper pipes
+skeleton skull with candles on it
+glowing mushroom
+Luminous mod white oak planks are actually amazing
+clovers - edible, give some kind of happiness effect
+fairy rings - indicate vis probably
+once a minecraft month make it so at night only fireflies spawn
+Mounts of creature heads
+Legendary creatures should drop items that allow the crafting of relics
+tall torch
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+Mods to get inspo from
+luminous - aesthetic...and boss fights
+formidulus - boss fight
+from the shadows reborn - boss fights
+infinity cave - new world, progression, exploration, fighting
+under the moon - new mobs
+
+
+----------------------------------------------------------------------------------------------
+
+
+
+To create a new block :
+    1. Add to ModBlocks.Java
+    2. Add to ModCreativeModeTabs
+    3. Add to ModBlockLootTableProvider
+        This can usually be done just by making it drop itself with dropSelf(ModBlocks.NAMEOFBLOCK.get()));
+        If it drops other items you need to specify what it drops
+        If it's a slab or door, you need to make sure it creates itself to drop
+    4. Add translation TO en_us.json
+    5. Add textures to texture folder
+
+To add a full armor set effect
+    1. Create .put(ModArmorMaterials.ARMOR NAME, in ModArmorItem.java
+    2. Add effects to List.of
+    3. Change ModIems. Note: Only a single piece needs to be changed but all can be if preferred.
+        from
+                       "() -> new ArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
+        to
+                       "() -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
+
+To create a new trim pattern
+    1. Add under ModTrimMaterials "ModTrimMaterials" and "bootstrap".
+    2. Register new template under ModTrimPatterns
+    3. Register under "ModItems"
+    4. Add to "ModCreativeModeTabs"
+    5. Add to "ModItemModelProvider"
+    6. Add to en_us.json. There should be three translations: "item.", "trim_pattern.", and "trim_material.".
+    7. Add armor trim stone texture under textures>item.
+    8. Create and add color palette to textures>trim>color_palettes this is a line of 8 colored pixels, usually brightest to darkest.
+    9. Create and add texture for chest piece and leggings to  textures>trim>models>armor
+    10. Register new trim to armor_trims.json under resources>assets>minecraft>atlases. Register under both "textures" and "palette_key".
+    11. Add both "TRIM_MATERIALS" and "TRIM_TEMPLATES" under ModItemTagProvider.java
+    12. Add trimSmithing under ModRecipeProvider.java
+
+
+To add a new ore with ore drops.
+    1. First add the item you want it to drop ia the ...
+    2. Add to "ModBlocks.java"
+    3. Add translation via "en_us.json"
+    4. Add to "ModBlockTagProvider.java" it should be under both "MINEABLE_WITH_PICKAXE" and what ever tool you want it
+    5. Add texture
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
