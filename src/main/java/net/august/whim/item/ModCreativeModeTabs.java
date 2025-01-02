@@ -60,6 +60,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ASPECT_IGNIS_SHARD);
                         output.accept(ModItems.ASPECT_ORDO_SHARD);
                         output.accept(ModItems.ASPECT_PERDITIO_SHARD);
+                        output.accept(ModItems.ASPECT_TERRA_SHARD);
 
 
                     }).build());
@@ -105,6 +106,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ASPECT_ORDO_ORE);
                         output.accept(ModBlocks.ASPECT_IGNIS_ORE);
                         output.accept(ModBlocks.ASPECT_PERDITIO_ORE);
+                        output.accept(ModBlocks.ASPECT_TERRA_ORE);
+
+                        output.accept(ModBlocks.PEDESTAL);
+
 
                     }).build());
 

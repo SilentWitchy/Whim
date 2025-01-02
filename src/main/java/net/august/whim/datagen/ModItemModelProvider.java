@@ -48,6 +48,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ASPECT_AQUA_SHARD.get());
         basicItem(ModItems.ASPECT_IGNIS_SHARD.get());
         basicItem(ModItems.ASPECT_ORDO_SHARD.get());
+        basicItem(ModItems.ASPECT_TERRA_SHARD.get());
         basicItem(ModItems.ASPECT_PERDITIO_SHARD.get());
 
         basicItem(ModItems.RADISH.get());

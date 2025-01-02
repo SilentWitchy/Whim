@@ -1,10 +1,10 @@
-// 1.21.1	2025-01-01T17:42:28.3192126	Tags for minecraft:block mod id whim
+// 1.21.1	2025-01-02T00:39:59.1631989	Tags for minecraft:block mod id whim
 d9cdc9a8430ccf444ba9bfc43ce05776d23e5c7a data/minecraft/tags/block/fences.json
 609b3c48e013c99cd9fae4555066f7fe308cb207 data/minecraft/tags/block/fence_gates.json
 97b7df84111ea3f8deda2c827885911fb0386942 data/minecraft/tags/block/logs_that_burn.json
-6d59d3791c29f9f86179f3bc4967bb1fed4577ea data/minecraft/tags/block/mineable/pickaxe.json
+091736799697e3ad8feb597ce1143dcc5a864955 data/minecraft/tags/block/mineable/pickaxe.json
 b296d89d8a58bc5f692535cb1f31170a90ac4a18 data/minecraft/tags/block/needs_diamond_tool.json
-8ba4fe24691256a27b3550ff6a70695b2359e602 data/minecraft/tags/block/needs_iron_tool.json
+afa177b6838fdb561c35a0819cfbfbf5f76a2eb7 data/minecraft/tags/block/needs_iron_tool.json
 3f18ae2c639bfe8bbb32d53fe8363e7a51fd0c05 data/minecraft/tags/block/walls.json
 89aaed2df58bb849c48054e2f999e4cfa6f6710b data/whim/tags/block/incorrect_for_bismuth_tool.json
 53af4bf3b0889327094d4a4042faa32998f9d941 data/whim/tags/block/needs_bismuth_tool.json

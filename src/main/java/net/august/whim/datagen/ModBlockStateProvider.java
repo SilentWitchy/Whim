@@ -38,7 +38,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.ASPECT_IGNIS_ORE);
         blockWithItem(ModBlocks.ASPECT_ORDO_ORE);
         blockWithItem(ModBlocks.ASPECT_PERDITIO_ORE);
-
+        blockWithItem(ModBlocks.ASPECT_TERRA_ORE);
 
         blockWithItem(ModBlocks.MAGIC_BLOCK);
 

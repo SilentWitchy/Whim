@@ -7,6 +7,10 @@ This can be interacted with directly in the book by having the quests and story 
 I got the shard texture from https://www.planetminecraft.com/texture-pack/better-amethyst-v2/
 Need to request their use or create my own from scratch
 
+I got most of my witchy things from https://www.planetminecraft.com/texture-pack/tiny-witch-stuff/
+I already sent them a message to use and credit their work. Since they havent been active in 2 years I doubt they will reply
+so I need to work on replacing what I have with my own models.
+
 
 
 ----------------------------------------------------------------------------------------------
@@ -57,12 +61,7 @@ Wand core
 
 Wand Focus
 
-
-
-
-
-
-Thaumonomicon from wand
+Thaumonomicon from wand and bookcase
 
 
 
@@ -117,14 +116,15 @@ tall torch
 
 
 
-Mods to get inspo from
+things to get inspo from
 luminous - aesthetic...and boss fights
 formidulus - boss fight
 from the shadows reborn - boss fights
 infinity cave - new world, progression, exploration, fighting
 under the moon - new mobs
 
-
+https://x.com/xstlee
+https://x.com/spellbrooksmp
 ----------------------------------------------------------------------------------------------
 
 
@@ -136,7 +136,7 @@ To create a new block :
         This can usually be done just by making it drop itself with dropSelf(ModBlocks.NAMEOFBLOCK.get()));
         If it drops other items you need to specify what it drops
         If it's a slab or door, you need to make sure it creates itself to drop
-    4. Add translation TO en_us.json
+    4. Add translation to en_us.json
     5. Add textures to texture folder
 
 To add a full armor set effect

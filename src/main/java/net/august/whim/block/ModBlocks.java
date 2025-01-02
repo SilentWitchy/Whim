@@ -53,6 +53,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ASPECT_PERDITIO_ORE = registerBlock("aspect_perditio_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final DeferredBlock<Block> ASPECT_TERRA_ORE = registerBlock("aspect_terra_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final DeferredBlock<Block> BISMUTH_END_ORE = registerBlock("bismuth_end_ore",
             () -> new DropExperienceBlock(UniformInt.of(5, 9),
@@ -60,6 +63,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_NETHER_ORE = registerBlock("bismuth_nether_ore",
             () -> new DropExperienceBlock(UniformInt.of(1, 5),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
+            () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
 
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",

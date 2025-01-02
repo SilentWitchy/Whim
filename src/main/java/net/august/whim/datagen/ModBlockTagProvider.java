@@ -29,7 +29,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ASPECT_AQUA_ORE.get())
                 .add(ModBlocks.ASPECT_IGNIS_ORE.get())
                 .add(ModBlocks.ASPECT_ORDO_ORE.get())
-                .add(ModBlocks.ASPECT_PERDITIO_ORE.get());
+                .add(ModBlocks.ASPECT_TERRA_ORE.get())
+                .add(ModBlocks.ASPECT_PERDITIO_ORE.get())
+                .add(ModBlocks.PEDESTAL.get());
+
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get())
@@ -37,6 +40,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ASPECT_AQUA_ORE.get())
                 .add(ModBlocks.ASPECT_IGNIS_ORE.get())
                 .add(ModBlocks.ASPECT_ORDO_ORE.get())
+                .add(ModBlocks.ASPECT_TERRA_ORE.get())
                 .add(ModBlocks.ASPECT_PERDITIO_ORE.get());
 
 

@@ -50,6 +50,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ASPECT_PERDITIO_SHARD = ITEMS.register("aspect_perditio_shard",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> ASPECT_TERRA_SHARD = ITEMS.register("aspect_terra_shard",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<SwordItem> BISMUTH_SWORD = ITEMS.register("bismuth_sword",
             () -> new SwordItem(ModToolTiers.BISMUTH, new Item.Properties()

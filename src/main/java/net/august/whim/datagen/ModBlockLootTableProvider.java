@@ -35,6 +35,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.BISMUTH_BLOCK.get());
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
+        dropSelf(ModBlocks.PEDESTAL.get());
+
         add(ModBlocks.BISMUTH_ORE.get(),
                 block -> createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
         add(ModBlocks.BISMUTH_DEEPSLATE_ORE.get(),
@@ -54,6 +56,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(ModBlocks.ASPECT_ORDO_ORE.get(), ModItems.ASPECT_ORDO_SHARD.get(), 1, 3));
         add(ModBlocks.ASPECT_PERDITIO_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.ASPECT_PERDITIO_ORE.get(), ModItems.ASPECT_PERDITIO_SHARD.get(), 1, 3));
+        add(ModBlocks.ASPECT_TERRA_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.ASPECT_TERRA_ORE.get(), ModItems.ASPECT_TERRA_SHARD.get(), 1, 3));
 
         dropSelf(ModBlocks.BISMUTH_STAIRS.get());
         add(ModBlocks.BISMUTH_SLAB.get(),

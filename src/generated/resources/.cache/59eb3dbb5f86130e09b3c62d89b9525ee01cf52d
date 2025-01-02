@@ -1,9 +1,10 @@
-// 1.21.1	2025-01-01T17:49:34.8082173	Loot Tables
-80fd6b503b469c32ecb6a4277e741af3deeb6811 data/whim/loot_table/blocks/aspect_aer_ore.json
-23d7c0c2de2eba3a6e9635649b455848fed04dae data/whim/loot_table/blocks/aspect_aqua_ore.json
-664f5fddf9f79e050895b94b99d61a15a862448b data/whim/loot_table/blocks/aspect_ignis_ore.json
-026140ad19be1cf7a751f13e13c45f94fc6df1ae data/whim/loot_table/blocks/aspect_ordo_ore.json
-2fd1bf52ccb141ac031b7ed401181afdc8943b54 data/whim/loot_table/blocks/aspect_perditio_ore.json
+// 1.21.1	2025-01-02T00:39:59.1622274	Loot Tables
+257c615e7608cae8c025b6b2eb802c5824e8d90b data/whim/loot_table/blocks/aspect_aer_ore.json
+f550846820f3b638aa2f849eaa1eac4e46a07bb4 data/whim/loot_table/blocks/aspect_aqua_ore.json
+461f2abada4ede2f1a5ea8bdd2e09ef3bce81477 data/whim/loot_table/blocks/aspect_ignis_ore.json
+5b4ac8317e3bd4387f34982df7c0dadb07e699b4 data/whim/loot_table/blocks/aspect_ordo_ore.json
+f7f631912e57e47a5fc0541e69d284c13b623aaa data/whim/loot_table/blocks/aspect_perditio_ore.json
+e183e4486902e2ec157a5e508bc7aebac5764f93 data/whim/loot_table/blocks/aspect_terra_ore.json
 5dec20f1abc73236b7111f69f739d6cfc1423376 data/whim/loot_table/blocks/bismuth_block.json
 e1c7951136d61d9092a53e1d7609f2a91d68b602 data/whim/loot_table/blocks/bismuth_button.json
 dcf400d304097363935bc194f1b9d80c4a99d4c8 data/whim/loot_table/blocks/bismuth_deepslate_ore.json
@@ -25,6 +26,7 @@ a51c6fc56acb5e39bf4530d7db9b8357b0f9ca27 data/whim/loot_table/blocks/bloodwood_p
 82be325e4fd060f4a1df49fbefd6cbdca111bd8c data/whim/loot_table/blocks/bloodwood_sapling.json
 4762d5368bf1ea1209f85e8aa9374d61d6e97810 data/whim/loot_table/blocks/bloodwood_wood.json
 16a8aaecce0f70710c0499cc328e9bb5a17bed65 data/whim/loot_table/blocks/goji_berry_bush.json
+6f06f7e3d938cac2f664b6aba29ad80cf36ea11d data/whim/loot_table/blocks/pedestal.json
 3a461a78515d9a34ac02e6073b2fe4424f86ca95 data/whim/loot_table/blocks/radish_crop.json
 16888fe1a2a53d18db4daaeb41707c439b53dc1c data/whim/loot_table/blocks/stripped_bloodwood_log.json
 1b9be0dd93414b14f05ece6d93057dd9077e957a data/whim/loot_table/blocks/stripped_bloodwood_wood.json

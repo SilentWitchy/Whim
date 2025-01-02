@@ -1,9 +1,10 @@
-// 1.21.1	2025-01-01T17:35:17.7219394	Block States: whim
+// 1.21.1	2025-01-02T00:39:59.1641964	Block States: whim
 d146b7414e88164552d499fbe0ec437b78b4a7a3 assets/whim/blockstates/aspect_aer_ore.json
 9ac1a3f228b6a1c173e4d5a50d81eeba89ce2c10 assets/whim/blockstates/aspect_aqua_ore.json
 c83f76707f9596e90389132f7b773e13f5087d80 assets/whim/blockstates/aspect_ignis_ore.json
 4891935fbbbb4caefeebd805c7f9d90baa27eff9 assets/whim/blockstates/aspect_ordo_ore.json
 164bf2f46f164bdc39a1f7d4519ad2b25f151593 assets/whim/blockstates/aspect_perditio_ore.json
+41df81173f47372da44fa29ccc1015f95dffe460 assets/whim/blockstates/aspect_terra_ore.json
 f4380cd30cd225bd90fefa8313ea18c6acddfc69 assets/whim/blockstates/bismuth_block.json
 ac8703b3e13f022e3f2f5aad86bfec0df9255530 assets/whim/blockstates/bismuth_button.json
 2747cc3056d7f0099d97cce92379a5b79b334655 assets/whim/blockstates/bismuth_deepslate_ore.json
@@ -34,6 +35,7 @@ d92201216ab94761c23dc00eeb088733f4a78ffc assets/whim/blockstates/bloodwood_wood.
 c4f787672865cc1ff2e4500cbbe8578f264ddcc3 assets/whim/models/block/aspect_ignis_ore.json
 085d4703fc4d53bf95e616107670bf7d0507cdf5 assets/whim/models/block/aspect_ordo_ore.json
 b1cb78006ff44fb86d64f7506bbfb0c4950662d3 assets/whim/models/block/aspect_perditio_ore.json
+7431ca664e8a349dc668467aa59ae2de79b641da assets/whim/models/block/aspect_terra_ore.json
 d501673a4dfe8ffdc841fb57e5e444fd0209a786 assets/whim/models/block/bismuth_block.json
 9ecc712596a130d321cb0df05090c73a30256022 assets/whim/models/block/bismuth_button.json
 e9aef9581baa17a7d2ed15947b8b38f0d59d05a7 assets/whim/models/block/bismuth_button_pressed.json
@@ -95,6 +97,7 @@ ce7961899d2d805817d3db1d5481ef4e9beeff68 assets/whim/models/item/aspect_aer_ore.
 3d2f1213b71bd51d3a1fcfa49e57eaa67ffb6890 assets/whim/models/item/aspect_ignis_ore.json
 3ebd83356bc6f041e364789ae248beb114343283 assets/whim/models/item/aspect_ordo_ore.json
 88de7a0fa8bb1df92fe664c4537d3f6159131950 assets/whim/models/item/aspect_perditio_ore.json
+526894e8480de6c705abdbec890dabad1df2eaca assets/whim/models/item/aspect_terra_ore.json
 ac93ede5792c9c61cfe7a97c8963b8d2ed57aefb assets/whim/models/item/bismuth_block.json
 9dc9094bc9a9dfedf310fba6c451fe6edb39af30 assets/whim/models/item/bismuth_deepslate_ore.json
 a0db831634276f2bbcf9b7e860957e33b1890336 assets/whim/models/item/bismuth_end_ore.json

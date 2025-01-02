@@ -12,11 +12,13 @@
   "item.whim.aspect_ignis_shard": "Ignis Aspect Shard",
   "item.whim.aspect_ordo_shard": "Ordo Aspect Shard",
   "item.whim.aspect_perditio_shard": "Perditio Aspect Shard",
+  "item.whim.aspect_terra_shard": "Terra Aspect Shard",
   "block.whim.aspect_aer_ore": "Aer Infused Ore",
   "block.whim.aspect_aqua_ore": "Aqua Infused Ore",
   "block.whim.aspect_ignis_ore": "Ignis Infused Ore",
   "block.whim.aspect_ordo_ore": "Ordo Infused Ore",
   "block.whim.aspect_perditio_ore": "Perditio Infused Ore",
+  "block.whim.aspect_terra_ore": "Terra Infused Ore",
 
   "item.whim.bismuth_sword": "Bismuth Sword",
   "item.whim.bismuth_pickaxe": "Bismuth Pickaxe",
@@ -24,7 +26,6 @@
   "item.whim.bismuth_axe": "Bismuth Axe",
   "item.whim.bismuth_hoe": "Bismuth Hoe",
   "item.whim.crimson_bow": "Crimson Bow",
-
 
 
   "item.whim.chisel": "Chisel",
@@ -43,6 +44,8 @@
   "block.whim.bismuth_door": "Bismuth Door",
   "block.whim.bismuth_trapdoor": "Bismuth Trapdoor",
   "block.whim.bismuth_lamp": "Bismuth Lamp",
+  "block.whim.pedestal": "Pedestal",
+
 
 
   "item.whim.radish": "Radish",

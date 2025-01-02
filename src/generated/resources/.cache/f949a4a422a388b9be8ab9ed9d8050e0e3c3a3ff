@@ -1,9 +1,10 @@
-// 1.21.1	2025-01-01T16:40:52.1338039	Item Models: whim
+// 1.21.1	2025-01-02T00:39:59.1602075	Item Models: whim
 abdea59d38ef4ca52fced7354ca4f858ff59359d assets/whim/models/item/aspect_aer_shard.json
 bd9c21f7bc2168df94fc3cd94bbd61c36eaa0a6b assets/whim/models/item/aspect_aqua_shard.json
 1242b558858280c2142bb084af261cd4ac0557ab assets/whim/models/item/aspect_ignis_shard.json
 612c518dfc7dc2446cb78f2cccda420f0eff2048 assets/whim/models/item/aspect_ordo_shard.json
 45e69583e83600d2ae4f06f0a8be9407c48c1fd0 assets/whim/models/item/aspect_perditio_shard.json
+c2f47aa32784119a170ed4e43ba4dc2357160976 assets/whim/models/item/aspect_terra_shard.json
 de91ef0abe1ad6932b824da8c90d18a195f2bdd1 assets/whim/models/item/bar_brawl_music_disc.json
 e0738af665ab34e972d8390e0c65cdb90f5b2e01 assets/whim/models/item/bismuth.json
 8ca18ff33b1676ba74df3ff3ff931c2cbb4a7ee3 assets/whim/models/item/bismuth_axe.json
