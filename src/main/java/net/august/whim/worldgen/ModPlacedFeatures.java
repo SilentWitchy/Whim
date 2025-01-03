@@ -27,7 +27,9 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> ESSENCE_ORDO_ORE_PLACED_KEY = registerKey("essence_ordo_ore_placed");
     public static final ResourceKey<PlacedFeature> ESSENCE_PERIDITIO_ORE_PLACED_KEY = registerKey("essence_periditio_ore_placed");
 
+
     public static final ResourceKey<PlacedFeature> BLOODWOOD_PLACED_KEY = registerKey("bloodwood_placed");
+
     public static final ResourceKey<PlacedFeature> GOJI_BERRY_BUSH_PLACED_KEY = registerKey("goji_berry_bush_placed");
 
     public static void bootstrap(BootstrapContext<PlacedFeature> context) {
@@ -43,17 +45,17 @@ public class ModPlacedFeatures {
 // HeightRangePlacement.uniform means anywhere from height -64 to 80 you have an equal chance of finding the ore
 // Triangle means its distributed closer to the ends
         register(context, ESSENCE_AER_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_AER_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
         register(context, ESSENCE_AQUA_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_AQUA_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
         register(context, ESSENCE_IGNIS_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_IGNIS_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
         register(context, ESSENCE_TERRA_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_TERRA_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
         register(context, ESSENCE_ORDO_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_ORDO_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
         register(context, ESSENCE_PERIDITIO_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_ASPECT_PERDITIO_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+                ModOrePlacement.commonOrePlacement(2, HeightRangePlacement.triangle(VerticalAnchor.absolute(-50), VerticalAnchor.absolute(64))));
 
         register(context, BLOODWOOD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLOODWOOD_KEY),
                 VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
