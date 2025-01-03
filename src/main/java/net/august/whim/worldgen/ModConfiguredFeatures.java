@@ -73,35 +73,35 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.ASPECT_IGNIS_DEEPSLATE_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_ASPECT_IGNIS_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectIgnisOres, 1));
+        register(context, OVERWORLD_ASPECT_IGNIS_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectIgnisOres, 2));
 // ------------
         List<OreConfiguration.TargetBlockState> overworldAspectAquaOres = List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.ASPECT_AQUA_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.ASPECT_AQUA_DEEPSLATE_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_ASPECT_AQUA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectAquaOres, 1));
+        register(context, OVERWORLD_ASPECT_AQUA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectAquaOres, 2));
 // ------------
         List<OreConfiguration.TargetBlockState> overworldAspectTerraOres = List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.ASPECT_TERRA_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_ASPECT_TERRA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectTerraOres, 1));
+        register(context, OVERWORLD_ASPECT_TERRA_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectTerraOres, 2));
 // ------------
         List<OreConfiguration.TargetBlockState> overworldAspectOrdoOres = List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.ASPECT_ORDO_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.ASPECT_ORDO_DEEPSLATE_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_ASPECT_ORDO_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectOrdoOres, 1));
+        register(context, OVERWORLD_ASPECT_ORDO_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectOrdoOres, 2));
 // ------------
         List<OreConfiguration.TargetBlockState> overworldAspectPerditioOres = List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.ASPECT_PERDITIO_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.ASPECT_PERDITIO_DEEPSLATE_ORE.get().defaultBlockState()));
 
 
-        register(context, OVERWORLD_ASPECT_PERDITIO_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectPerditioOres, 1));
+        register(context, OVERWORLD_ASPECT_PERDITIO_ORE_KEY, Feature.ORE, new OreConfiguration(overworldAspectPerditioOres, 2));
 // ------------
 
         register(context, BLOODWOOD_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(

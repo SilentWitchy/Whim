@@ -29,6 +29,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
+
+
         blockWithItem(ModBlocks.BISMUTH_BLOCK);
 
         blockWithItem(ModBlocks.BISMUTH_ORE);

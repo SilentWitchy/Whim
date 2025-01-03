@@ -11,26 +11,27 @@ I got most of my witchy things from https://www.planetminecraft.com/texture-pack
 I already sent them a message to use and credit their work. Since they havent been active in 2 years I doubt they will reply
 so I need to work on replacing what I have with my own models.
 
+----------------------------------------------------------------------------------------------
+THINGS TO FIX
+Custom Ore doesnt spawn unless the veins are large enough for what ever reason.
+datagen for custom blocks
+----------------------------------------------------------------------------------------------
 
-Hello!
-Did you have a specific way we can request new topics for your videos?
-Capes
 
+
+/gamerule commandModificationBlockLimit 1000000000
+/kill @e[type=item]
 execute at @a run fill ~-100 ~-170 ~-100 ~100 ~170 ~100 air replace minecraft:grass
 
 why arent my ores spawning unless the vein count is high?
 ----------------------------------------------------------------------------------------------
 
-
+Capes
+Notification (PRESS ~ TO OPEN THE MOD MENU)
+    Gives the Whim book and opens book up
+    Step one,
 
 Items to add
-SHARDS
-    Air (Aer)
-    Fire (Ignis)
-    Water (Aqua)
-    Earth (Terra)
-    Order (Ordo)
-    Entropy (Perditio)
 
 Knowledge fragments
     Combine 9 to make research notes

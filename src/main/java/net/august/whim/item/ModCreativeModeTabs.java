@@ -34,8 +34,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_SHOVEL);
                         output.accept(ModItems.BISMUTH_AXE);
                         output.accept(ModItems.BISMUTH_HOE);
+                        output.accept(ModItems.CRIMSON_BOW);
 
                         output.accept(ModItems.BISMUTH_HAMMER);
+                        output.accept(ModItems.TOMAHAWK);
 
                         output.accept(ModItems.BISMUTH_HELMET);
                         output.accept(ModItems.BISMUTH_CHESTPLATE);
@@ -45,13 +47,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH_HORSE_ARMOR);
                         output.accept(ModItems.WITCHY_SMITHING_TEMPLATE);
 
-                        output.accept(ModItems.CRIMSON_BOW);
-
                         output.accept(ModItems.BAR_BRAWL_MUSIC_DISC);
-                        output.accept(ModItems.RADISH_SEEDS);
 
+                        output.accept(ModItems.RADISH_SEEDS);
                         output.accept(ModItems.GOJI_BERRIES);
-                        output.accept(ModItems.TOMAHAWK);
 
                         output.accept(ModItems.GECKO_SPAWN_EGG);
 
