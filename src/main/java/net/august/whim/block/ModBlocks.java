@@ -74,7 +74,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> ASPECT_PERDITIO_ORE = registerBlock("aspect_perditio_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).lightLevel(1)));
+                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> ASPECT_PERDITIO_DEEPSLATE_ORE = registerBlock("aspect_perditio_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
