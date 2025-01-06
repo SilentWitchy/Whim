@@ -36,6 +36,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         // dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
         dropSelf(ModBlocks.PEDESTAL.get());
+        dropSelf(ModBlocks.BOOKS1.get());
+
 
         add(ModBlocks.BISMUTH_ORE.get(),
                 block -> createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));

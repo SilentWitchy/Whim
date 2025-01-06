@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.RADISH);
 
+
                         output.accept(ModItems.FROSTFIRE_ICE);
                         output.accept(ModItems.STARLIGHT_ASHES);
 
@@ -60,6 +61,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ASPECT_ORDO_SHARD);
                         output.accept(ModItems.ASPECT_PERDITIO_SHARD);
                         output.accept(ModItems.ASPECT_TERRA_SHARD);
+
+
+
 
 
 
@@ -115,6 +119,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE);
 
                         output.accept(ModBlocks.PEDESTAL);
+                        output.accept(ModBlocks.BOOKS1);
 
 
                     }).build());

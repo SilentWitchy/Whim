@@ -43,7 +43,6 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_NETHER_ORE = registerBlock("bismuth_nether_ore",
             () -> new DropExperienceBlock(UniformInt.of(1, 5),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
-
     public static final DeferredBlock<Block> ASPECT_AER_ORE = registerBlock("aspect_aer_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -64,21 +63,18 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ASPECT_IGNIS_DEEPSLATE_ORE = registerBlock("aspect_ignis_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-
     public static final DeferredBlock<Block> ASPECT_ORDO_ORE = registerBlock("aspect_ordo_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> ASPECT_ORDO_DEEPSLATE_ORE = registerBlock("aspect_ordo_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-
     public static final DeferredBlock<Block> ASPECT_PERDITIO_ORE = registerBlock("aspect_perditio_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final DeferredBlock<Block> ASPECT_PERDITIO_DEEPSLATE_ORE = registerBlock("aspect_perditio_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
-
     public static final DeferredBlock<Block> ASPECT_TERRA_ORE = registerBlock("aspect_terra_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -87,9 +83,11 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
-
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
+    public static final DeferredBlock<Block> BOOKS1 = registerBlock("books1",
+            () -> new Books1Block(BlockBehaviour.Properties.of().noOcclusion()));
+
 
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
