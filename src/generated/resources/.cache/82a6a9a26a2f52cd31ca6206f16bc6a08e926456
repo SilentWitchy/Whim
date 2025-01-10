@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-02T14:50:32.459663	Block States: whim
+// 1.21.1	2025-01-06T02:22:58.8388152	Block States: whim
 806bf29b3f9eb2b5605f54f65020b3a9ac430133 assets/whim/blockstates/aspect_aer_deepslate_ore.json
 d146b7414e88164552d499fbe0ec437b78b4a7a3 assets/whim/blockstates/aspect_aer_ore.json
 4de8cb5df173f16d2c186a1ff611c8f325ff41eb assets/whim/blockstates/aspect_aqua_deepslate_ore.json
@@ -131,6 +131,7 @@ c77880e95212403f57ebdf9d39c83ac0c073ef8c assets/whim/models/item/bismuth_trapdoo
 44759fb783e28e7d094ac3c5875c58f2058996e5 assets/whim/models/item/bloodwood_log.json
 8dcb025b2cb08997fbbdd96886ed0bf0f983605f assets/whim/models/item/bloodwood_planks.json
 5ffab0152f13e9fbd4c546ce05bcbe14ce1d9300 assets/whim/models/item/bloodwood_wood.json
+95dff4293a7eadd133666f88992a07199f647768 assets/whim/models/item/books1.json
 d316572c846f78683f509452c380f883b610b33c assets/whim/models/item/magic_block.json
 6a6942ab5ac797bb18c5f857be73110606e72b79 assets/whim/models/item/stripped_bloodwood_log.json
 65e907b4bc19636c5c4da6c1d32c963a0140083b assets/whim/models/item/stripped_bloodwood_wood.json

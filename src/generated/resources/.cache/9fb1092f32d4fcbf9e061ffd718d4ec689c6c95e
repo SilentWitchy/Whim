@@ -1,8 +1,9 @@
-// 1.21.1	2025-01-01T03:14:42.322718	Recipes
+// 1.21.1	2025-01-06T02:22:58.8368208	Recipes
 aeff8853b0ff2ab6883faad9d26e775db9d73631 data/whim/advancement/recipes/building_blocks/bismuth_slab.json
 ed146b70bd92c80e5c6a916b2ebd1c71f804f9aa data/whim/advancement/recipes/building_blocks/bismuth_stairs.json
 39b474a04a467a48d6bd26abd1c6e66f3676f00b data/whim/advancement/recipes/building_blocks/bismuth_wall.json
 46b69b1bf75246cd092cb1097e30dcfa0e117b37 data/whim/advancement/recipes/decorations/bismuth_fence.json
+3024b3193e0bf3d3cfe459a984ff6a8a0d344d11 data/whim/advancement/recipes/decorations/books1.json
 b91854637d72083143e55f83474b2576d52ef3f8 data/whim/advancement/recipes/misc/bismuth.json
 36ec44d4c799a35be454da9d26b9c14c4da9bb93 data/whim/advancement/recipes/misc/bismuth_block.json
 27a954d16e4f69d207221637ef7b2f0c446a3bcf data/whim/advancement/recipes/misc/bismuth_from_blasting_bismuth_deepslate_ore.json
@@ -36,4 +37,5 @@ fa21e0588d204ec11b6f178c0cc1aad9109cbe62 data/whim/recipe/bismuth_slab.json
 31d418f36e981b5b3e665e7fd311e0cda46cc5ea data/whim/recipe/bismuth_stairs.json
 c79252caf0754d8468aa3a4e64a39116212f7b7d data/whim/recipe/bismuth_trapdoor.json
 be773e0d0e9e53accc7846fff26af2744330622e data/whim/recipe/bismuth_wall.json
+05bbea44dfdf9b2600bf1ca8a2a9bf364566ea6f data/whim/recipe/books1.json
 c91049484c460612a10d0747c27b5f343316a329 data/whim/recipe/witchy.json

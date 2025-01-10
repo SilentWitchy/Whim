@@ -12,6 +12,7 @@ import net.august.whim.item.ModItems;
 import net.august.whim.potion.ModPotions;
 import net.august.whim.sound.ModSounds;
 import net.august.whim.util.ModItemProperties;
+import net.august.whim.villager.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -54,13 +55,15 @@ public class Whim {
         ModBlocks.register(modEventBus);
 
         ModDataComponents.register(modEventBus);
+
         ModSounds.register(modEventBus);
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
-
         ModEnchantmentEffects.register(modEventBus);
+
         ModEntities.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

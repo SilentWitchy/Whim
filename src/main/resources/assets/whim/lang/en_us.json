@@ -53,8 +53,9 @@
   "block.whim.bismuth_lamp": "Bismuth Lamp",
   "block.whim.pedestal": "Pedestal",
 
-  "block.whim.books1": "Books",
+  "block.whim.books1": "Books, First Edition",
 
+  "entity.minecraft.villager.whim.covener": "Covener",
 
   "item.whim.radish": "Radish",
   "item.whim.radish_seeds": "Radish Seeds",
@@ -108,6 +109,30 @@
   "painting.whim.shrimp.author": "NanoAttack",
   "painting.whim.saw_them.title": "Saw Them",
   "painting.whim.saw_them.author": "NanoAttack",
+  "painting.whim.board.title": "board",
+  "painting.whim.board.author": "Sugrcube",
+  "painting.whim.board_small.title": "board_small",
+  "painting.whim.board_small.author": "Sugrcube",
+  "painting.whim.bookcase_one.title": "bookcase_one",
+  "painting.whim.bookcase_one.author": "Sugrcube",
+  "painting.whim.bookcase_two.title": "bookcase_two",
+  "painting.whim.bookcase_two.author": "Sugrcube",
+  "painting.whim.bridge.title": "bridge",
+  "painting.whim.bridge.author": "Sugrcube",
+  "painting.whim.butterfly.title": "butterfly",
+  "painting.whim.butterfly.author": "Sugrcube",
+  "painting.whim.chalk.title": "chalk",
+  "painting.whim.chalk.author": "Sugrcube",
+  "painting.whim.city.title": "city",
+  "painting.whim.city.author": "Sugrcube",
+  "painting.whim.lattice.title": "lattice",
+  "painting.whim.lattice.author": "Sugrcube",
+  "painting.whim.night.title": "night",
+  "painting.whim.night.author": "Sugrcube",
+  "painting.whim.tools.title": "tools",
+  "painting.whim.tools.author": "Sugrcube",
+
+
 
 
   "effect.whim.slimey": "Slimey",

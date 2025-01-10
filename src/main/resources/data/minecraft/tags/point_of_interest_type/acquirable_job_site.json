@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "whim:magic_poi",
+      "required": false
+    }
+  ]
+}

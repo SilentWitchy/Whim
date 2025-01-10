@@ -85,11 +85,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.BLOODWOOD_WOOD);
         blockItem(ModBlocks.STRIPPED_BLOODWOOD_LOG);
         blockItem(ModBlocks.STRIPPED_BLOODWOOD_WOOD);
-
         blockWithItem(ModBlocks.BLOODWOOD_PLANKS);
 
         leavesBlock(ModBlocks.BLOODWOOD_LEAVES);
         saplingBlock(ModBlocks.BLOODWOOD_SAPLING);
+
+        blockItem(ModBlocks.BOOKS1);
 
     }
 

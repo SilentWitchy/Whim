@@ -86,7 +86,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
     public static final DeferredBlock<Block> BOOKS1 = registerBlock("books1",
-            () -> new Books1Block(BlockBehaviour.Properties.of().noOcclusion()));
+            () -> new Books1Block(BlockBehaviour.Properties.of().noOcclusion().sound(SoundType.CHISELED_BOOKSHELF)));
 
 
 
