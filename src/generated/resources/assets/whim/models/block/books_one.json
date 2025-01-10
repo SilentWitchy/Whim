@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "whim:block/books_one",
+    "side": "whim:block/books_one",
+    "top": "whim:block/books_one"
+  }
+}

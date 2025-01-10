@@ -90,8 +90,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         leavesBlock(ModBlocks.BLOODWOOD_LEAVES);
         saplingBlock(ModBlocks.BLOODWOOD_SAPLING);
 
-        blockItem(ModBlocks.BOOKS_ONE);
-
+        horizontalBlock(ModBlocks.BOOKS_ONE.get(), modLoc("block/books_one"),  modLoc("block/books_one"),  modLoc("block/books_one"));
     }
 
     private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {

@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-09T21:10:46.0855829	Block States: whim
+// 1.21.1	2025-01-09T21:31:47.635297	Block States: whim
 806bf29b3f9eb2b5605f54f65020b3a9ac430133 assets/whim/blockstates/aspect_aer_deepslate_ore.json
 d146b7414e88164552d499fbe0ec437b78b4a7a3 assets/whim/blockstates/aspect_aer_ore.json
 4de8cb5df173f16d2c186a1ff611c8f325ff41eb assets/whim/blockstates/aspect_aqua_deepslate_ore.json
@@ -31,6 +31,7 @@ e63dec5a026f5ec267efe48161094800953584ae assets/whim/blockstates/bismuth_trapdoo
 b60d0f29600d34181552052bc6fd4ea12ce4ae45 assets/whim/blockstates/bloodwood_planks.json
 928c8e61bbfc5c9209513b2a65650c9fa8594063 assets/whim/blockstates/bloodwood_sapling.json
 d92201216ab94761c23dc00eeb088733f4a78ffc assets/whim/blockstates/bloodwood_wood.json
+19fe53e71c291d87ec1a850c504471a8e07912d0 assets/whim/blockstates/books_one.json
 1535645ac67b9b9ea4e50b52e37ae604ae5431a3 assets/whim/blockstates/goji_berry_bush.json
 0e498d847a3acad4823142e4b17986c9532e6e8e assets/whim/blockstates/magic_block.json
 9fde934aaa1014f1cd77c0fda30592cfe5b03d9c assets/whim/blockstates/radish_crop.json
@@ -91,6 +92,7 @@ aa6d173fc5d9d5e095a3249d951149bb27b885ea assets/whim/models/block/bloodwood_log.
 7f6d705edfab8676d63cd95f5080dda3613323fe assets/whim/models/block/bloodwood_sapling.json
 69c86991dfb95bb7f3304ac58633d0ea927b81a0 assets/whim/models/block/bloodwood_wood.json
 f696e96133539a10c24e35451e1b06193912a2c1 assets/whim/models/block/bloodwood_wood_horizontal.json
+f6e8949c78b5918a6ace0c1e0306739a23f7a87c assets/whim/models/block/books_one.json
 c6ee20d0ef201f8c3d7b3c9d73314157b42fe976 assets/whim/models/block/goji_berry_bush_stage0.json
 342f847fd90d9b0acefd75575b06ff2327e7b29c assets/whim/models/block/goji_berry_bush_stage1.json
 882867218dec58fefd3ae771c9698fd7968fddfe assets/whim/models/block/goji_berry_bush_stage2.json
@@ -131,7 +133,6 @@ c77880e95212403f57ebdf9d39c83ac0c073ef8c assets/whim/models/item/bismuth_trapdoo
 44759fb783e28e7d094ac3c5875c58f2058996e5 assets/whim/models/item/bloodwood_log.json
 8dcb025b2cb08997fbbdd96886ed0bf0f983605f assets/whim/models/item/bloodwood_planks.json
 5ffab0152f13e9fbd4c546ce05bcbe14ce1d9300 assets/whim/models/item/bloodwood_wood.json
-1725f7b80bb9e81cb80c73f45a0ed7459ab6cdb9 assets/whim/models/item/books_one.json
 d316572c846f78683f509452c380f883b610b33c assets/whim/models/item/magic_block.json
 6a6942ab5ac797bb18c5f857be73110606e72b79 assets/whim/models/item/stripped_bloodwood_log.json
 65e907b4bc19636c5c4da6c1d32c963a0140083b assets/whim/models/item/stripped_bloodwood_wood.json
