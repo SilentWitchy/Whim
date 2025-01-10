@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-09T21:31:47.635297	Block States: whim
+// 1.21.1	2025-01-09T21:44:32.506326	Block States: whim
 806bf29b3f9eb2b5605f54f65020b3a9ac430133 assets/whim/blockstates/aspect_aer_deepslate_ore.json
 d146b7414e88164552d499fbe0ec437b78b4a7a3 assets/whim/blockstates/aspect_aer_ore.json
 4de8cb5df173f16d2c186a1ff611c8f325ff41eb assets/whim/blockstates/aspect_aqua_deepslate_ore.json
@@ -92,7 +92,7 @@ aa6d173fc5d9d5e095a3249d951149bb27b885ea assets/whim/models/block/bloodwood_log.
 7f6d705edfab8676d63cd95f5080dda3613323fe assets/whim/models/block/bloodwood_sapling.json
 69c86991dfb95bb7f3304ac58633d0ea927b81a0 assets/whim/models/block/bloodwood_wood.json
 f696e96133539a10c24e35451e1b06193912a2c1 assets/whim/models/block/bloodwood_wood_horizontal.json
-f6e8949c78b5918a6ace0c1e0306739a23f7a87c assets/whim/models/block/books_one.json
+7760709eab9af9107170df343d9bc5291bcf8c1a assets/whim/models/block/books_one.json
 c6ee20d0ef201f8c3d7b3c9d73314157b42fe976 assets/whim/models/block/goji_berry_bush_stage0.json
 342f847fd90d9b0acefd75575b06ff2327e7b29c assets/whim/models/block/goji_berry_bush_stage1.json
 882867218dec58fefd3ae771c9698fd7968fddfe assets/whim/models/block/goji_berry_bush_stage2.json
