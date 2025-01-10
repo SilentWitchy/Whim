@@ -119,7 +119,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ASPECT_TERRA_DEEPSLATE_ORE);
 
                         output.accept(ModBlocks.PEDESTAL);
-                        output.accept(ModBlocks.BOOKS1);
+                        output.accept(ModBlocks.BOOKS_ONE);
 
 
                     }).build());

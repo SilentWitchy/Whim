@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "whim:block/books1"
+      "model": "whim:block/books_one"
     }
   }
 }

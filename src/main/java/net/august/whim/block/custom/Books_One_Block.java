@@ -1,7 +1,6 @@
 package net.august.whim.block.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -15,12 +14,12 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class Books1Block extends Block {
+public class Books_One_Block extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
     public static final VoxelShape SHAPE = Block.box(1, 2, 4, 15, 13,15 );
 
 
-    public Books1Block(Properties properties) {
+    public Books_One_Block(Properties properties) {
         super(properties);
     }
 

@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "whim:block/books1",
-		"1": "whim:block/books2",
-		"2": "whim:block/books3",
-		"particle": "whim:block/books1"
+		"0": "whim:block/books_one",
+		"1": "whim:block/books_two",
+		"2": "whim:block/books_three",
+		"particle": "whim:block/books_one"
 	},
 	"elements": [
 		{

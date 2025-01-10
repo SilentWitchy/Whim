@@ -1,4 +1,4 @@
-// 1.21.1	2025-01-05T19:50:02.8930266	Loot Tables
+// 1.21.1	2025-01-09T21:10:46.0825931	Loot Tables
 a75fe95f90f0f6dfeac4b374fde82e8f31841187 data/whim/loot_table/blocks/aspect_aer_deepslate_ore.json
 80cdb613be5e94843d1635c5f0d3baa2cdc4b439 data/whim/loot_table/blocks/aspect_aer_ore.json
 af208478ffc49d2ac7ce4d448804ba486f1454db data/whim/loot_table/blocks/aspect_aqua_deepslate_ore.json
@@ -31,7 +31,7 @@ e224748a5ad3a59aa8ed8aea5611924ddafc3c49 data/whim/loot_table/blocks/bloodwood_l
 a51c6fc56acb5e39bf4530d7db9b8357b0f9ca27 data/whim/loot_table/blocks/bloodwood_planks.json
 82be325e4fd060f4a1df49fbefd6cbdca111bd8c data/whim/loot_table/blocks/bloodwood_sapling.json
 4762d5368bf1ea1209f85e8aa9374d61d6e97810 data/whim/loot_table/blocks/bloodwood_wood.json
-f0f4d291c49608cd5f3852917ee47af24e78c1bd data/whim/loot_table/blocks/books1.json
+84736d543b422fdb26ebaa3cd27fb3ca8ff449ad data/whim/loot_table/blocks/books_one.json
 16a8aaecce0f70710c0499cc328e9bb5a17bed65 data/whim/loot_table/blocks/goji_berry_bush.json
 6f06f7e3d938cac2f664b6aba29ad80cf36ea11d data/whim/loot_table/blocks/pedestal.json
 3a461a78515d9a34ac02e6073b2fe4424f86ca95 data/whim/loot_table/blocks/radish_crop.json

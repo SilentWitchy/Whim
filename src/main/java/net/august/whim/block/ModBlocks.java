@@ -2,7 +2,6 @@ package net.august.whim.block;
 
 import net.august.whim.Whim;
 import net.august.whim.block.custom.*;
-import net.august.whim.block.custom.*;
 import net.august.whim.item.ModItems;
 import net.august.whim.sound.ModSounds;
 import net.august.whim.worldgen.tree.ModTreeGrowers;
@@ -85,8 +84,8 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> PEDESTAL = registerBlock("pedestal",
             () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
-    public static final DeferredBlock<Block> BOOKS1 = registerBlock("books1",
-            () -> new Books1Block(BlockBehaviour.Properties.of().noOcclusion().sound(SoundType.CHISELED_BOOKSHELF)));
+    public static final DeferredBlock<Block> BOOKS_ONE = registerBlock("books_one",
+            () -> new Books_One_Block(BlockBehaviour.Properties.of().noOcclusion().sound(SoundType.CHISELED_BOOKSHELF)));
 
 
 
