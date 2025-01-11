@@ -1,7 +1,8 @@
 ----------------------------------------------------------------------------------------------
 THINGS TO FIX
 Custom Ore doesnt spawn unless the veins are large enough for what ever reason.
-datagen for custom blocks
+Pedestal block retexture
+Pedestal block makes audio every right click even if no item on pedestal
 ----------------------------------------------------------------------------------------------
 HOW TO DO THINGS
 To create a new block :
