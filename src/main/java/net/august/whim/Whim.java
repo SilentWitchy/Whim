@@ -1,6 +1,9 @@
 package net.august.whim;
 
 import net.august.whim.block.ModBlocks;
+import net.august.whim.block.entity.custom.ModBlockEntities;
+import net.august.whim.block.entity.custom.PedestalBlockEntity;
+import net.august.whim.block.entity.renderer.PedestalBlockEntityRenderer;
 import net.august.whim.component.ModDataComponents;
 import net.august.whim.effect.ModEffects;
 import net.august.whim.enchantment.ModEnchantmentEffects;
@@ -15,6 +18,7 @@ import net.august.whim.util.ModItemProperties;
 import net.august.whim.villager.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,6 +57,8 @@ public class Whim {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
 
         ModDataComponents.register(modEventBus);
 
@@ -103,6 +109,11 @@ public class Whim {
 
             EntityRenderers.register(ModEntities.GECKO.get(), GeckoRenderer::new);
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+            event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
         }
     }
 }
