@@ -53,6 +53,9 @@
   "block.whim.bismuth_lamp": "Bismuth Lamp",
   "block.whim.pedestal": "Pedestal",
 
+  "blockentity.whim.pedestal": "pedestal",
+
+
   "block.whim.books_one": "Books, First Edition",
 
   "entity.minecraft.villager.whim.covener": "Covener",
