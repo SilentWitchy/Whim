@@ -24,17 +24,15 @@ public class PedestalMenu extends AbstractContainerMenu {
     }
 
     public PedestalMenu(int pContainerId, Inventory inv, BlockEntity blockEntity) {
-        super(, pContainerId);
+        super(ModMenuTypes.PEDESTAL_MENU.get(), pContainerId);
         this.blockEntity = ((PedestalBlockEntity) blockEntity);
         this.level = inv.player.level();
 
-        addPlayerInvnentory(inv);
+        addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
         this.addSlot(new SlotItemHandler(this.blockEntity.inventory, 0, 80, 35));
     }
-
-
 
     // CREDIT GOES TO: diesieben07 | https://github.com/diesieben07/SevenCommons
     // must assign a slot number to each of the slots used by the GUI.
@@ -86,26 +84,23 @@ public class PedestalMenu extends AbstractContainerMenu {
         return copyOfSourceStack;
     }
 
-
-
     @Override
     public boolean stillValid(Player pPlayer) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
                 pPlayer, ModBlocks.PEDESTAL.get());
     }
 
-    private void addPlayerInvnentory(Inventory pPlayerInventory) {
+    private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(pPlayerInventory, l + i * 9 + 9, 8 + 1 * 18, 84 + i * 18));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 84 + i * 18));
             }
         }
     }
 
     private void addPlayerHotbar(Inventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + 1 * 18, 142));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }
-
     }
 }

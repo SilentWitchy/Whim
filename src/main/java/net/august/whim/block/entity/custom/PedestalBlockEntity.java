@@ -1,6 +1,7 @@
 package net.august.whim.block.entity.custom;
 
 import com.mojang.serialization.Decoder;
+import net.august.whim.screen.custom.PedestalMenu;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.NonNullList;
@@ -82,8 +83,8 @@ public class PedestalBlockEntity extends BlockEntity implements MenuProvider {
     }
 
     @Override
-    public @Nullable AbstractContainerMenu createMenu(int i, Inventory inventory, Player player) {
-        return
+    public @Nullable AbstractContainerMenu createMenu(int pContainerId, Inventory pPlayerInventory, Player pPlayer) {
+        return new PedestalMenu(pContainerId, pPlayerInventory, this);
     }
 
     @Nullable

@@ -13,12 +13,16 @@ import net.august.whim.entity.client.TomahawkProjectileRenderer;
 import net.august.whim.item.ModCreativeModeTabs;
 import net.august.whim.item.ModItems;
 import net.august.whim.potion.ModPotions;
+import net.august.whim.screen.custom.ModMenuTypes;
+import net.august.whim.screen.custom.PedestalMenu;
+import net.august.whim.screen.custom.PedestalScreen;
 import net.august.whim.sound.ModSounds;
 import net.august.whim.util.ModItemProperties;
 import net.august.whim.villager.ModVillagers;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -53,12 +57,9 @@ public class Whim {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        ModCreativeModeTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
-
 
         ModDataComponents.register(modEventBus);
 
@@ -73,8 +74,11 @@ public class Whim {
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+        ModCreativeModeTabs.register(modEventBus);
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        ModMenuTypes.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -114,6 +118,11 @@ public class Whim {
         @SubscribeEvent
         public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
             event.registerBlockEntityRenderer(ModBlockEntities.PEDESTAL_BE.get(), PedestalBlockEntityRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
         }
     }
 }
