@@ -45,118 +45,7 @@ To add a new ore with ore drops.
     3. Add translation via "en_us.json"
     4. Add to "ModBlockTagProvider.java" it should be under both "MINEABLE_WITH_PICKAXE" and what ever tool you want it
     5. Add texture
------------------------------------------------------------------------------------------------
-To check if the ore spawned properly
-/gamerule commandModificationBlockLimit 1000000000
-/kill @e[type=item]
-execute at @a run fill ~-100 ~-170 ~-100 ~100 ~170 ~100 air replace minecraft:grass
-----------------------------------------------------------------------------------------------
-I want the mod to have two sides, horror/occult and fairy light cute fun research witchy.
-This can be interacted with directly in the book by having the quests and story be different.
 
-I got the shard texture from https://www.planetminecraft.com/texture-pack/better-amethyst-v2/
-I need to create my own instead of using theirs as a placeholder
-
-Currently using the alembic from https://www.planetminecraft.com/texture-pack/tiny-witch-stuff/
-I need to create my own instead of using theirs as a placeholder
-----------------------------------------------------------------------------------------------
-UI things to add
-
-1. Book on world spawn that allows the player to choose the theme of their game.
-2. Notification on first spawn (PRESS ~ TO OPEN THE MOD MENU)
-----------------------------------------------------------------------------------------------
-Items to add
-
-Knowledge fragments
-    Combine 9 to make research notes
-Research Notes
-Glass Phial
-Wand
-wand caps
-wand core
-
-I want making a wand to be a very cool process- possibly similar to how tinkers works
-Materials for wands
-    Silverwood
-    Bloodwood
-    copper
-    iron
-    gold
-    emerald
-    diamond
-    bismuth
-    Netherite
-    Lapiz
-    Blaze Rod
-    ender rod
-    netherite rod
-
-shelf mushrooms that grow on trees and glow
-----------------------------------------------------------------------------------------------
-Blocks/Things to add
-
-Silverwood trees
-Shimmerleaf (Bushes?)
-Knight orders - I think I want 3?
-    Crimson Knights
-        Armor
-            Knight armor
-                Armor trims
-            Mage armor
-                Armor trims
-        Weapons
-            Crimson Bow
-            Crimson Sword
-            Crimson crossbow
-
-Hollowed logs with moss around them and vines on the side.
-----------------------------------------------------------------------------------------------
-Mobs to add
-    Knight
-    Spell caster
-
-Legendary creatures
-    Mob that is attracted to light and tries to break torches
-
-Witch doctor villager
-Butterfly raising that generates vis
-Firefly's
-----------------------------------------------------------------------------------------------
-Organize
-
-Oxidising copper pipes
-skeleton skull with candles on it
-glowing mushroom
-Luminous mod white oak planks are actually amazing
-clovers - edible, give some kind of happiness effect
-fairy rings - indicate vis probably
-once a minecraft month make it so at night only fireflies spawn
-Mounts of creature heads
-Legendary creatures should drop items that allow the crafting of relics
-tall torch
-----------------------------------------------------------------------------------------------
-
-
-
-things to get inspo from
-luminous - aesthetic...and boss fights
-formidulus - boss fight
-from the shadows reborn - boss fights
-infinity cave - new world, progression, exploration, fighting
-under the moon - new mobs
-
-https://x.com/xstlee
-https://x.com/spellbrooksmp
-----------------------------------------------------------------------------------------------
-To create a new block :
-    1. Add to ModBlocks.Java
-    2. Add to ModCreativeModeTabs
-    3. Add to ModBlockLootTableProvider
-        This can usually be done just by making it drop itself with dropSelf(ModBlocks.NAMEOFBLOCK.get()));
-        If it drops other items you need to specify what it drops
-        If it's a slab or door, you need to make sure it creates itself to drop
-    4. Add translation to en_us.json
-    5. Add textures to texture folder
 
 To add a full armor set effect
     1. Create .put(ModArmorMaterials.ARMOR NAME, in ModArmorItem.java
@@ -167,25 +56,211 @@ To add a full armor set effect
         to
                        "() -> new ModArmorItem(ModArmorMaterials.BISMUTH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,"
 
-To create a new trim pattern
-    1. Add under ModTrimMaterials "ModTrimMaterials" and "bootstrap".
-    2. Register new template under ModTrimPatterns
-    3. Register under "ModItems"
-    4. Add to "ModCreativeModeTabs"
-    5. Add to "ModItemModelProvider"
-    6. Add to en_us.json. There should be three translations: "item.", "trim_pattern.", and "trim_material.".
-    7. Add armor trim stone texture under textures>item.
-    8. Create and add color palette to textures>trim>color_palettes this is a line of 8 colored pixels, usually brightest to darkest.
-    9. Create and add texture for chest piece and leggings to  textures>trim>models>armor
-    10. Register new trim to armor_trims.json under resources>assets>minecraft>atlases. Register under both "textures" and "palette_key".
-    11. Add both "TRIM_MATERIALS" and "TRIM_TEMPLATES" under ModItemTagProvider.java
-    12. Add trimSmithing under ModRecipeProvider.java
+----------------------------------------------------------------------------------------------
+NOTES ON WHAT I WANT THIS MOD TO BE
+1. Custom potions with potion tubes and crafting
+2. Spirits and artifacts
+3. Thaumcraft style of research
+4. Two sides Horror/occult and Cutesy/witchy
+
+----------------------------------------------------------------------------------------------
+OVERVIEW CONCEPT OF WHAT TO ADD
+1. Notification on first spawn (PRESS ~ TO OPEN THE MOD MENU)
+    This allows the player to choose the theme of their game.
+    There should be a command to undo everything they have done and start on the other path
+
+2. Wands, Spellbooks, and Staves. These should be called Foci
+    These are how the player casts magic.
+    The choice of what their magic item is, is purely cosmetic but the way to make them is different.
+
+3. Potions
+    Potion crafting will be a major section of the mod.
+        There should be an item to auto craft a potion if you've learned how to make it.
+        There should be different Villagers that let you buy potion reagents.
+
+----------------------------------------------------------------------------------------------
+PHYSICAL THINGS TO ADD
+Potions
+    1. Potion of Wild Growth - quickly speed up crop growth. Basically a larger bone meal.
+    2. Potion of Libido - Makes animals breed
+    3. Potion of Splash Fire - fire
+    4. Potion of Explosion - Explodes
+    5. Potion of Swiftness - speeds player up a lot
+    6. Potion of Light - Creates a lingering light
+    7. Potion of Mythrel coating - Upgrades a weapon from one level to the next. IE wood to stone
+    8. Potion of Poison Coat - Gives your weapon bleed
+    9. Potion of Thorns - Gives you thorns
+    10. Mana Potion?
+
+Potion Machines
+    1. Mortar and Pestle - for grinding herbs to dust
+    2. Cauldron - for mixing ingredients together.
+    3. Ladle - for mixing in water
+    4. Glass Phial - for adding/removing potions
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+
+Villagers
+    1. Miner - Ores and gems, Lets you buy them for potions
+    2. Mushroomer - Lets you buy mushrooms
+    3. Herbalist - Sells herbs
+
+Foci -
+    Spellbook - Animation of flipping pages when a spell is cast that is different from the last one
+
+    Wand - Possibly made similar to Tinkers Construct.
+        Wand Cap - The part of the wand that caps the magical internal structure
+            Silverwood
+            Bloodwood
+            copper
+            iron
+            gold
+            emerald
+            diamond
+            bismuth
+            Netherite
+            Lapiz
+            Blaze Rod
+            ender rod
+            netherite rod
+        Wand Core - The internal structure of the wand.
+
+    Staff
 
 
-To add a new ore with ore drops.
-    1. First add the item you want it to drop ia the ...
-    2. Add to "ModBlocks.java"
-    3. Add translation via "en_us.json"
-    4. Add to "ModBlockTagProvider.java" it should be under both "MINEABLE_WITH_PICKAXE" and what ever tool you want it
-    5. Add texture
+Flora and Fauna
+    Potions -
+        1. Shelf Mushrooms - These grow on trees and logs. They also emit light.
+        2. clovers - Edible, give some kind of happiness or luck effect.
+        3.
+        4.
+        5.
+        6.
+        7.
+        8.
+        9.
+        10.
+
+    Thaum -
+        1. Silverwood Trees -
+        2. Shimmerleaf Bush -
+        3.
+        4.
+        5.
+        6.
+        7.
+        8.
+        9.
+        10.
+
+    Aesthetic -
+        1.
+        2.
+        3.
+        4.
+        5.
+        6.
+        7.
+        8.
+        9.
+        10.
+
+Mobs
+    1. Knight Orders
+            1. Crimson Knights
+            2. Order of the White Moon
+
+
+    2. Legendary Creatures
+            1. Wendigo - chance to spawn nearby when eating rotten flesh
+            2. ### - attracted to light and tries to break torches
+    3. Fireflys
+    4. Butterflys - There should be butterfly raising and cross breading
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+
+Equipment
+    1. Crimson Mage Armor
+    2. Crimson Knight Armor
+    3. Crimson Armor Trims
+    4. Crimson Bow
+    5. Crimson Sword
+    6. Crimson crossbow
+    7.
+    8.
+    9.
+    10.
+
+
+
+Random
+    1. Knowledge fragments - Combine 9 to make research notes
+    2. Research Notes - Used to unlock new potions, spells, etc
+    3. Hollowed logs - Mod already like this. Moss and vines grow along them as well.
+    4.
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+
+Aesthetic
+    1. Oxidising copper pipes
+    2. skeleton skull with candles on it - Gives off light
+    3. Mob Head Mounts
+    4. Tall Torches - Gives off light
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+
+
+    1.
+    2.
+    3.
+    4.
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+----------------------------------------------------------------------------------------------
+Notes -
+    1. Fairy Rings - Should indicate something just below the surface. Possibly spawns animals.
+    2. Luminous mod white oak planks are actually amazing
+    3. Once a minecraft month make it so at night only fireflies spawn
+    4. Legendary creatures should drop items that allow the crafting of relics
+    5.
+    6.
+    7.
+    8.
+    9.
+    10.
+
+----------------------------------------------------------------------------------------------
+INSPIRATION MODS
+luminous - aesthetic...and boss fights
+formidulus - boss fight
+from the shadows reborn - boss fights
+infinity cave - new world, progression, exploration, fighting
+under the moon - new mobs
+
+https://x.com/xstlee
+https://x.com/spellbrooksmp
 -----------------------------------------------------------------------------------------------
+To check if the ore spawned properly
+/gamerule commandModificationBlockLimit 1000000000
+/kill @e[type=item]
+execute at @a run fill ~-100 ~-170 ~-100 ~100 ~170 ~100 air replace minecraft:grass
