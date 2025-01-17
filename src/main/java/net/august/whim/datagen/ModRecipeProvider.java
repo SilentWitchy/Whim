@@ -32,13 +32,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.BISMUTH.get())
                 .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, ModBlocks.BOOKS_ONE.get())
-                .pattern("LLL")
-                .pattern("   ")
-                .pattern("   ")
-                .define('L', Items.BOOK)
-                .unlockedBy("has_book", has(Items.BOOK)).save(recipeOutput);
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BISMUTH.get(), 9)
                 .requires(ModBlocks.BISMUTH_BLOCK)
                 .unlockedBy("has_bismuth_block", has(ModBlocks.BISMUTH_BLOCK)).save(recipeOutput);
